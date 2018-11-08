@@ -1,6 +1,7 @@
 body {
     background-color: gainsboro;
-    background-image: url("logo3.png");
+    background-image: url("logo2.png");
     background-repeat:no-repeat;
     background-position: right top;
+    background-attachment: fixed;
 }
