@@ -1,8 +1,23 @@
 <style type="text/css">
-  body {
-    color: purple;
-    background-color: #d8da3d }
-  </style>
+  body div {
+width: 200px;
+height: 434px;
+display: block;
+position: relative;
+}
+
+div::after {
+content: "";
+background: url(logo3.png);
+opacity: 0.5;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+position: absolute;
+z-index: -1;
+}
+ </style>
 <h1>Blender Tutorials</h1>
 <h2>1 - Remove Strings Arm</h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bUXSpZf1TTY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
