@@ -4,6 +4,7 @@ body {
     background-repeat:no-repeat;
     background-position: right top;
     background-attachment: fixed;
+    background-size: 60%;
 }
 h1 {
     font-family: 'Amatic SC', cursive;
