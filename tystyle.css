@@ -7,10 +7,12 @@ body {
     background-attachment: fixed;
 }
 h1 {
+    font-family: 'Amatic SC', cursive;
     color: #431190;
     text-align: center;
 }
 h2 {
+    font-family: 'Amatic SC', cursive;
     color: #a734cd;
     text-align: left;
 }
