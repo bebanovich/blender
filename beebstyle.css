@@ -1,18 +1,4 @@
-body div {
-width: 200px;
-height: 434px;
-display: block;
-position: relative;
-}
-
-div::after {
-content: "";
-background: url(logo3.png);
-opacity: 0.5;
-top: 0;
-left: 0;
-bottom: 0;
-right: 500;
-position: absolute;
-z-index: -1;
+body {
+    background-image: url("logo3.png");
+    background-repeat: repeat-n;
 }
