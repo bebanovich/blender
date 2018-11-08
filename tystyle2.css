@@ -1,1 +1,19 @@
-
+body {
+    background-color: #14062a;
+    background-image: url("EPop.png");
+    background-repeat:no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    color: #512b8c;
+    text-align: center;
+}
+h2 {
+    font-size: 2em;
+    font-family: 'Amatic SC', cursive;
+    color: #512b8c;
+    text-align: left;
+}
