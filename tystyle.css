@@ -1,6 +1,6 @@
 
 body {
-    background-color: black;
+    background-color: #431190;
     background-image: url("Simon.png");
     background-repeat:no-repeat;
     background-position: right top;
@@ -9,7 +9,7 @@ body {
 h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 3em;
-    color: #431190;
+    color: #a734cd;
     text-align: center;
 }
 h2 {
