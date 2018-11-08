@@ -1,1 +1,16 @@
-20a_-_Simon.png
+
+body {
+    background-color: black;
+    background-image: url("20a_-_Simon.png");
+    background-repeat:no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+h2 {
+    color: white;
+    text-align: left;
+}
