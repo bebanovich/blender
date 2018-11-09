@@ -1,20 +1,20 @@
 body {
-    background-color: black;
-    background-image: url("big_eyes.png");
+    background-color: white;
+    background-image: url("watching.png");
     background-repeat:no-repeat;
     background-position: right top;
     background-attachment: fixed;
-    background-size: 60%;
+    background-size: 35%;
 }
 h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 3em;
-    color: #512b8c;
+    color: #ADD8E6;
     text-align: center;
 }
 h2 {
     font-size: 2em;
     font-family: 'Amatic SC', cursive;
-    color: #512b8c;
+    color: #ADD8E6;
     text-align: left;
 }
