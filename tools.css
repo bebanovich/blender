@@ -11,6 +11,12 @@ Basic {
     color: gray;
     text-align: left;
 }
+Bindent {
+    font-family: Arial;
+    color: gray;
+    text-align: left;
+    text-indent: 2em;
+}
 Cutpaste {
     font-size: 1em;
     font-family: 'Roboto Condensed', sans-serif;
