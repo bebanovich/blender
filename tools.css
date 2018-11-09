@@ -15,7 +15,12 @@ Bindent {
     font-family: Arial;
     color: gray;
     text-align: left;
-    text-indent: -2em;
+    text-indent: 50px;
+}
+Bred {
+    font-family: Arial;
+    color: red;
+    text-align: left;
 }
 Cutpaste {
     font-size: 1em;
