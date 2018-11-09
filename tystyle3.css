@@ -4,11 +4,11 @@ body {
     background-repeat:no-repeat;
     background-position: right bottom;
     background-attachment: fixed;
-    background-size: 60%;
+    background-size: 50%;
 }
 h1 {
     font-family: 'Nosifer', cursive;
-    font-size: 3em;
+    font-size: 3.5em;
     color: #ADD8E6;
     text-align: center;
 }
