@@ -8,19 +8,19 @@ body {
 }
 }
 Basic {
-    font-family: Ariel;
+    font-family: Arial;
     color: gray;
     text-align: left;
 }
 Cutpaste {
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: 'Roboto Condensed', sans-serif;
     color: red;
     text-align: left;
 }
 Amatic {
     font-family: 'Amatic SC', cursive;
-    font-size: 1.5em;
+    font-size: 2em;
     color: black;
     text-align: left;
 }
