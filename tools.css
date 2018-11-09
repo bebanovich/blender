@@ -1,1 +1,32 @@
-
+body {
+    background-color: white;
+    background-image: url("watching.png");
+    background-repeat:no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-size: 70%;
+}
+Amatic {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
+    color: black;
+    text-align: left;
+}
+Cinzel {
+    font-size: 1.5em;
+    font-family: 'Cinzel', serif;
+    color: black;
+    text-align: left;
+}
+Orbitron {
+    font-size: 1.5em;
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    text-align: left;
+}
+Life Savers {
+    font-size: 1.5em;
+    font-family: 'Life Savers', cursive;
+    color: black;
+    text-align: left;
+}
