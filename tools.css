@@ -6,6 +6,18 @@ body {
     background-attachment: fixed;
     background-size: 45%;
 }
+}
+Basic {
+    font-family: Ariel;
+    color: gray;
+    text-align: left;
+}
+Cutpaste {
+    font-size: 1.5em;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: red;
+    text-align: left;
+}
 Amatic {
     font-family: 'Amatic SC', cursive;
     font-size: 1.5em;
