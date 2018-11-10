@@ -33,10 +33,6 @@ h2 {
   z-index: 10;
 }
 
-.topnav #myLinks {
-  display: none;
-}
-
 .topnav a {
   color: white;
   padding: 14px 16px;
