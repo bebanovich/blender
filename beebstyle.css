@@ -32,7 +32,9 @@ h2 {
   overflow: hidden;
   opacity: 0.75;
   background-color: #153817;
-  position: relative;
+  position: absolute;
+  left: 0;
+  top: 10;
   line-height:45px;
   height:45px;
   z-index: -1;
@@ -61,7 +63,7 @@ h2 {
   display: block;
   position: absolute;
   right: 0;
-  top: 0;
+  top: 10;
 
 }
 }
