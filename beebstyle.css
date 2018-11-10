@@ -34,6 +34,7 @@ logo {
   opacity: 0.75;
   background-color: #333;
   position: relative;
+  height: 100px;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
