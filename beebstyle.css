@@ -23,8 +23,10 @@ h2 {
 .logo {
   opacity: 0.75;
   background-color: #333;
-  float: left;
-margin: 0px 15px 15px 0px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
 }
 
 /* Style the navigation menu */
@@ -35,6 +37,7 @@ margin: 0px 15px 15px 0px;
   position: relative;
   line-height:50px;
   height:50px;
+  z-index: 1;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
