@@ -23,6 +23,8 @@ h2 {
 
 .topnav {
   height: 60px;
+  width: 100%;
+  max-width: 100%;
   opacity: 0.75;
   overflow: hidden;
   background-color: #153817;
