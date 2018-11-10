@@ -22,25 +22,25 @@
 <!-- Top Navigation Menu -->
 <div class="topnav">
   <a href="#home" class="active"></a>
-  <div id="myLinks">
+  <div id="toggle">
+  <div class="one"></div>
+  <div class="two"></div>
+  <div class="three"></div>
+</div>
+   
+<script> $("#toggle").click(function() {
+  $(this).toggleClass("on");
+  $("#menu").slideToggle();
+});
+</script>
+   
+   <div id="myLinks">
     <a href="#news">News</a>
     <a href="#contact">Contact</a>
     <a href="#about">About</a>
   </div>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
   </a>
 </div>
-<script>
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
 <h1>Blender Tutorials</h1>
 <h2>1 - Remove Strings Arm</h2>
 <iframe width="448" height="252" src="https://www.youtube.com/embed/bUXSpZf1TTY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
