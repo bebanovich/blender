@@ -24,14 +24,20 @@
 <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Butcherman" rel="stylesheet">
 </head>
+
+<div>
+  <div id="backdrop" style="z-index: 1; position: absolute; top: 0px; left: 0px;"><img alt="" src='/backdrop.png' /></div>
+  <div id="curtain" style="z-index: 2; position: absolute; top: 0px; left: 0px; background-image:url(/curtain.png);background-position:100px 200px; height:250px; width:500px;">&nbsp;</div>
+</div>
 <!-- Top Navigation Menu -->
 <div class="logo">
-  <a href="#home" class="active"><img border="0" alt="T&D Productions" src="logo_med.png" width="70" height="152"></a>
+  
   </div>
 <div class="topnav">
-  
-  <!-- Navigation links (hidden by default) -->
-  <div id="myLinks">
+<div id="logo" style="logo" z-index: 2; position: absolute; top: 0px; left: 0px;>
+  <a href="#home" class="active"><img border="0" alt="T&D Productions" src="logo_med.png" width="70" height="152"></a>&nbsp;</div>
+    <!-- Navigation links (hidden by default) -->
+  <div id="myLinks" style="topnav" z-index: 1; position: absolute; top:40px; left: 0px;>
     <a href="#news">News</a>
     <a href="#contact">Contact</a>
     <a href="#about">About</a>
