@@ -41,6 +41,7 @@ h2 {
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
+  opacity: 0.75;
 }
 
 /* Style navigation menu links */
