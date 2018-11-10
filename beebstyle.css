@@ -20,7 +20,7 @@ h2 {
 }
 
 /* Style the logo */
-.logo {
+logo {
   opacity: 0.75;
   position: absolute;
   left: 10px;
