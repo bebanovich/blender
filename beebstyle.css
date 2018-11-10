@@ -23,7 +23,7 @@ h2 {
 .logo {
   opacity: 0.75;
   position: absolute;
-  left: 10;
+  left: 10px;
   top: 0;
 }
 
@@ -33,7 +33,7 @@ h2 {
   opacity: 0.75;
   background-color: #153817;
   position: relative;
-  top: 5;
+  top: 5px;
   line-height:45px;
   height:45px;
   z-index: -1;
