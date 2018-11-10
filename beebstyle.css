@@ -18,6 +18,16 @@ h2 {
     color: #ADD8E6;
     text-align: left;
 }
+
+/* Style the logo */
+logo {
+  opacity: 0.75;
+  background-color: #333;
+   position: absolute;
+  right: 0;
+  top: 0;
+}
+
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
