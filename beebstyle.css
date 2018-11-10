@@ -19,31 +19,27 @@ h2 {
     text-align: left;
 }
 
-/* Style the logo */
-.logo {
-  opacity: 0.75;
-  position: absolute;
-  left: 10px;
-  top: 0;
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  height: 500px;
+  border-radius: 10px;
 }
 
-/* Style the navigation menu */
 .topnav {
-  overflow: hidden;
+  height: 45px;
   opacity: 0.75;
+  overflow: hidden;
   background-color: #153817;
   position: relative;
-  height: 45px;
   top: 5px;
   z-index: -1;
 }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
 }
 
-/* Style navigation menu links */
 .topnav a {
   color: white;
   padding: 14px 16px;
@@ -52,26 +48,33 @@ h2 {
   display: block;
 }
 
-/* Style the hamburger menu */
 .topnav a.icon {
+  opacity: 0.75;
   background: black;
   display: block;
   position: absolute;
   right: 0;
   top: 0;
-
 }
 
-/* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: #ddd;
   opacity: 0.75;
+  background-color: #ddd;
   color: black;
 }
 
-/* Style the active link (or home/logo) */
 .active {
-    opacity: 0.75;
-    background-color: #153817;
+  opacity: 0.75;
+  background-color: #4CAF50;
   color: white;
+}
+
+
+
+/* Style the logo */
+.logo {
+  opacity: 0.75;
+  position: absolute;
+  left: 10px;
+  top: 0;
 }
