@@ -114,6 +114,7 @@ h2 {
   position: absolute;
   left: 10px;
   top: 0;
+  z-index: 100;
 }
 
 .header {
