@@ -34,7 +34,7 @@ h2 {
   background-color: #153817;
   position: relative;
   top: 5px;
- /* line-height:45px;*/
+  line-height:45px;
   /*height:45px;*/
   z-index: -1;
 }
@@ -42,12 +42,10 @@ h2 {
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
-  opacity: 0.75;
 }
 
 /* Style navigation menu links */
 .topnav a {
-  opacity: 0.75;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
@@ -58,7 +56,6 @@ h2 {
 /* Style the hamburger menu */
 .topnav a.icon {
   background: black;
-  opacity: .75;
   display: block;
   position: absolute;
   right: 0;
