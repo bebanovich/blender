@@ -41,6 +41,17 @@ h2 {
   display: block;
 }
 
+.menu {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
 .topnav a.icon {
   opacity: 0.75;
   background: black;
