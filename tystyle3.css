@@ -52,6 +52,13 @@ html {
     overflow-x: hidden;
     height: 100%;
 }
+/* Style the logo */
+.logo {
+  position: fixed;
+  left: 10px;
+  top: 5;
+  z-index: 100;
+}
 .topnav {
   height: 60px;
   width: 100%;
@@ -88,13 +95,7 @@ html {
 
 
 
-/* Style the logo */
-.logo {
-  position: fixed;
-  left: 10px;
-  top: 5;
-  z-index: 100;
-}
+
 
 .header {
     display: block;
@@ -132,17 +133,16 @@ html {
     position: fixed;
     right: 0;
     width: 250px;
-    margin-top: 32px;
+    margin-top: 12px;
     transform: translateX(+250px);
     transition: transform 250ms ease-in-out;
     background: linear-gradient(180deg, #0e2910 0%, #29a933 100%);
-    opacity: 0.85;
+    opacity: .9;
 }
 .sidebarMenuInner{
     margin:0;
     padding:0;
     border-top: 1px solid rgba(255, 255, 255, 0.10);
-    opacity: 0.85;
 }
 .sidebarMenuInner li{
     list-style: none;
