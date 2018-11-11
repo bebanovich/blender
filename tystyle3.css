@@ -25,12 +25,6 @@ html {
     overflow-x: hidden;
     height: 100%;
 }
-.container {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: -10;
-}
 .topnav {
   height: 60px;
   width: 100%;
@@ -39,7 +33,7 @@ html {
   overflow: hidden;
   background-color: #153817;
   position: fixed;
-  top: 0;
+  top: 10;
   z-index: 10;
 }
 
@@ -69,7 +63,7 @@ html {
 
 /* Style the logo */
 .logo {
-  position: absolute;
+  position: fixed;
   left: 10px;
   top: 5;
   z-index: 100;
@@ -157,11 +151,11 @@ input[type=checkbox] {
     transition: all 0.3s;
     box-sizing: border-box;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     z-index: 99;
     height: 100%;
     width: 100%;
-    top: 22px;
+    top: 32px;
     right: 15px;
     height: 22px;
     width: 22px;
