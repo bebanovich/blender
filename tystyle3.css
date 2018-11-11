@@ -32,8 +32,6 @@ body {
     z-index: -2;
     background-image: url("med_eyes.png");
     background-repeat:no-repeat;
-     background-position: right bottom;
-   `background-attachment: fixed;
 }
 h1 {
     font-family: 'Nosifer', cursive;
