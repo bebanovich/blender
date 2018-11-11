@@ -1,10 +1,10 @@
 body {
     background-color: white;
-    background-image: url("watching.png");
-    background-repeat:no-repeat;
-    background-position: right bottom;
-    background-attachment: fixed;
-    background-size: 35%;
+/* background-image: url("watching.png");*/
+/*    background-repeat:no-repeat;*/
+/*    background-position: right bottom;*/
+/*    background-attachment: fixed;*/
+/*    background-size: 35%;*/
 }
 /* make keyframes that tell the start state and the end state of our object */
 
@@ -51,6 +51,7 @@ width: 400px;
 height: 711px;
 position: relative;  
 float: right;
+ z-index: -2:
 }
 
 Basic {
