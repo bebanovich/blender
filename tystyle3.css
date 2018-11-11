@@ -1,10 +1,10 @@
 body {
     background-color: black;
-    background-image: url("EPop.png");
+    background-image: url("big_eyes.png");
     background-repeat:no-repeat;
     background-position: right bottom;
     background-attachment: fixed;
-    background-size: 30%;
+    background-size: 50%;
 }
 h1 {
     font-family: 'Nosifer', cursive;
