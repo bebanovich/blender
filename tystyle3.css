@@ -144,12 +144,14 @@ html {
 }
 input[type="checkbox"]:checked ~ #sidebarMenu {
     transform: translateX(0);
+    z-index: 200;
 }
 
 input[type=checkbox] {
     transition: all 0.3s;
     box-sizing: border-box;
     display: none;
+    z-index: 200;
 }
 .sidebarIconToggle {
     transition: all 0.3s;
