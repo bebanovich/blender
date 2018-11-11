@@ -136,13 +136,13 @@ html {
     transform: translateX(+250px);
     transition: transform 250ms ease-in-out;
     background: linear-gradient(180deg, #0e2910 0%, #29a933 100%);
-    opacity: 0.75;
+    opacity: 0.85;
 }
 .sidebarMenuInner{
     margin:0;
     padding:0;
     border-top: 1px solid rgba(255, 255, 255, 0.10);
-    opacity: 0.75;
+    opacity: 0.85;
 }
 .sidebarMenuInner li{
     list-style: none;
