@@ -112,7 +112,7 @@ html {
     margin: 0 auto;
     display: block;
     height: 100%;
-    margin-top: 30px;
+    /*margin-top: 30px;*/
 }
 .mainInner{
     display: table;
@@ -132,7 +132,7 @@ html {
     position: fixed;
     right: 0;
     width: 250px;
-    margin-top: 30px;
+    margin-top: 32px;
     transform: translateX(+250px);
     transition: transform 250ms ease-in-out;
     background: linear-gradient(180deg, #0e2910 0%, #29a933 100%);
