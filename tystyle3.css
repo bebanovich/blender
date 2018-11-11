@@ -36,14 +36,15 @@ scale:.5;
 /*    -webkit-animation-duration:3s;*/
 /*    -moz-animation-duration:3s;*/
     animation-duration:3s;
+    animation-delay: 1.6s;
     }
 
 
-fade-in.three {
+/*fade-in.three {*/
 /*-webkit-animation-delay: 1.6s;*/
 /*-moz-animation-delay: 1.6s;*/
-animation-delay: 1.6s;
-}
+/*animation-delay: 1.6s;*/
+/*}*/
 
 
 /*---make a basic box ---*/
