@@ -7,22 +7,47 @@ body {
 /*    background-size: 35%;*/
 }
 
-#box{
-    width: 400px;
-    height: 711px;
-    position: relative;  
-    float: right;
-     z-index: -2:
-     -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 5s; /* Firefox < 16 */
-      -ms-animation: fadein 5s; /* Internet Explorer */
-      -o-animation: fadein 5s; /* Opera < 12.1 */
-       animation: fadein 5s;
+
+@-webkit-keyframes pop-in {
+0% { opacity: 0; -webkit-transform: scale(0.5); }
+100% { opacity: 1; -webkit-transform: scale(1); }
 }
-@keyframes fadein {
-    from {scale: .5; }
-    to   {scale: 1; }
+@-moz-keyframes pop-in {
+0% { opacity: 0; -moz-transform: scale(0.5); }
+100% { opacity: 1; -moz-transform: scale(1); }
 }
+@keyframes pop-in {
+0% { opacity: 0; transform: scale(0.5); }
+100% { opacity: 1; transform: scale(1); }
+}
+
+pop {
+-webkit-animation:pop-in 0.5s;
+-moz-animation:pop-in 0.5s;
+-ms-animation:pop-in 0.5s;
+ width: 400px;
+  height: 711px;
+  position: relative;  
+  float: right;
+   z-index: -2:
+   background-image: url("watching.png");
+   background-repeat:no-repeat;
+   background-position: right bottom;
+   background-attachment: fixed;
+}
+
+/*   @keyframes zoom {*/
+/*    0% {*/
+ /*       transform: scale(1.0);*/
+/*    }*/
+/*    100% {*/
+/*        transform: scale(2.0);*/
+/*    }*/
+/*}*/
+/*@keyframes fadein {*/
+ /*   from {scale: .5; }*/
+ /*   to   {scale: 1; }*/
+/*}*/
 
 /* Firefox < 16 */
 /*@-moz-keyframes fadein { */
