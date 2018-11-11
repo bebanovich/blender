@@ -25,6 +25,11 @@ html {
     overflow-x: hidden;
     height: 100%;
 }
+.container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 .topnav {
   height: 60px;
   width: 100%;
