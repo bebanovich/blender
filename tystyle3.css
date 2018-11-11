@@ -18,9 +18,9 @@ body {
     opacity: 1;
   }
 }
-/*@-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
-/*@-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
-/*@keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+/*@-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }*/
+/*@-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }*/
+/*@keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }*/
 
 fade-in {
 opacity:0;  /* make things invisible upon start */
@@ -52,7 +52,7 @@ width: 647px;
 height: 597px;
 position: relative;  
 float: right;
- z-index: -200;
+z-index: -200;
 
 }
 h1 {
