@@ -112,7 +112,7 @@ html {
     margin: 0 auto;
     display: block;
     height: 100%;
-    *margin-top: 32px;
+    margin-top: 60px;
 }
 .mainInner{
     display: table;
