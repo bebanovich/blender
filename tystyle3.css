@@ -22,13 +22,13 @@ body {
 }
 .knock {
   height: 3.75em;
-  width: 75%;
+  width: 65%;
   background: transparent;
-  max-width: 75%;
+  max-width: 65%;
   position: fixed;
   top: .625em;
   left: 6em;
-  margin-bottom: 5.938em;
+  padding-bottom: 10px;
   z-index: 11;
 }
 
@@ -59,15 +59,15 @@ h2 {
     text-align: left;
 }
 .knockout {
-    font-size: 3.5em;
+    font-size: 2.5em;
     font-weight: 900;
     color: #75ff28;
     font-family: 'Amatic SC', bold;
-    letter-spacing: .15em;
+    letter-spacing: .1em;
     text-align: right;
     text-transform: uppercase;
-    opacity: .4;
-    /*text-shadow: #2c2c2c 3px 3px 5px;*/
+    opacity: .1;
+    text-shadow: #2c2c2c 3px 3px 5px;
 }
 html {
     overflow-y: scroll;
