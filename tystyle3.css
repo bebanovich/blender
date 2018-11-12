@@ -135,8 +135,8 @@ html {
     top: 60px;
     transform: translateX(+250px);
     transition: transform 250ms ease-in-out;
-    background: linear-gradient(180deg, #0e2910 0%, #29a933 100%);
-    opacity: .9;
+    background: linear-gradient(180deg, #153817 0%, #000000 100%);
+    opacity: 1;
 }
 .sidebarMenuInner{
     margin:0;
