@@ -132,11 +132,11 @@ html {
     position: fixed;
     right: 0;
     width: 250px;
-    top: 60px;
+    top: 70px;
     transform: translateX(+250px);
     transition: transform 250ms ease-in-out;
     background: linear-gradient(180deg, #153817 0%, #000000 100%);
-    opacity: 1;
+    opacity: .95;
 }
 .sidebarMenuInner{
     margin:0;
