@@ -26,10 +26,10 @@ body {
     -moz-animation:pop-in 5s;
     -ms-animation:pop-in 5s;
     animation-timing-function: ease-in;
-    width: 597px;
-    height: 647px;
+    width: 37.313em;
+    height: 40.438em;
     position: fixed;  
-    Right: 0px;
+    Right: 0;
     bottom: 0;
     z-index: -2;
     background-image: url("med_eyes.png");
@@ -55,27 +55,27 @@ html {
 /* Style the logo */
 .logo {
   position: fixed;
-  left: 25px;
+  left: 1.5em;
   top: 0;
   z-index: 100;
 }
 .topnav {
-  height: 60px;
+  height: 3.75em;
   width: 100%;
   max-width: 100%;
   opacity: 0.75;
   overflow: hidden;
   background-color: #153817;
   position: fixed;
-  top: 10px;
+  top: .625em;
   z-index: 10;
 }
 
 .topnav a {
   color: white;
-  padding: 14px 16px;
+  padding: 0.875em 1em;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.063em;
   display: block;
 }
 
@@ -104,7 +104,7 @@ html {
     box-shadow: none;
     background-color: #FC466B;
     position: fixed;
-    height: 60px!important;
+    height: 3.750em!important;
     overflow: hidden;
     z-index: 10;
 }
@@ -112,7 +112,7 @@ html {
     margin: 0 auto;
     display: block;
     height: 100%;
-    margin-top: 75px;
+    margin-top: 5.938em;
 }
 .mainInner{
     display: table;
@@ -125,15 +125,15 @@ html {
     vertical-align: middle;
     font-size: 3em;
     font-weight: bold;
-    letter-spacing: 1.25px;
+    letter-spacing: 0.078em;
 }
 #sidebarMenu {
     height: 100%;
     position: fixed;
     right: 0;
-    width: 250px;
-    top: 70px;
-    transform: translateX(+250px);
+    width: 15.625em;
+    top: 4.375em;
+    transform: translateX(+15.625em);
     transition: transform 250ms ease-in-out;
     background: linear-gradient(180deg, #153817 0%, #000000 100%);
     opacity: .95;
@@ -141,20 +141,20 @@ html {
 .sidebarMenuInner{
     margin:0;
     padding:0;
-    border-top: 1px solid rgba(255, 255, 255, 0.10);
+    border-top: 0.063em solid rgba(255, 255, 255, 0.10);
 }
 .sidebarMenuInner li{
     list-style: none;
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 20px;
+    padding: 1.250em;
     cursor: pointer;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+    border-bottom: 0.063em solid rgba(255, 255, 255, 0.10);
 }
 .sidebarMenuInner li span{
     display: block;
-    font-size: 14px;
+    font-size: 0.875em;
     color: rgba(255, 255, 255, 0.50);
 }
 .sidebarMenuInner li a{
@@ -183,16 +183,16 @@ input[type=checkbox] {
     z-index: 99;
     height: 100%;
     width: 100%;
-    top: 22px;
-    right: 30px;
-    height: 44px;
-    width: 44px;
+    top: 1.375em;
+    right: 1.875em;
+    height: 2.750em;
+    width: 2.750em;
 }
 .spinner {
     transition: all 0.3s;
     box-sizing: border-box;
     position: absolute;
-    height: 5px;
+    height: 0.313em;
     width: 100%;
     background-color: #fff;
 }
@@ -201,7 +201,7 @@ input[type=checkbox] {
     box-sizing: border-box;
     position: relative;
     float: right;
-    margin-top: 5px;
+    margin-top: 0.313em;
 }
 .diagonal.part-1 {
     position: relative;
@@ -214,7 +214,7 @@ input[type=checkbox] {
     box-sizing: border-box;
     position: relative;
     float: right;
-    margin-top: 5px;
+    margin-top: 0.313em;
 }
 input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
     transition: all 0.3s;
@@ -227,7 +227,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
     box-sizing: border-box;
     transform: rotate(135deg);
     transform-origin: 47% 140%;
-    margin-top: 4px;
+    margin-top: 0.250em;
     z-index: 200;
 }
 input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
@@ -235,6 +235,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     box-sizing: border-box;
     transform: rotate(-135deg);
     transform-origin: 48% 0%;
-    margin-top: 0px;
+    margin-top: 0;
     z-index: 200;
 }
