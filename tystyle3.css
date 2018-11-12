@@ -21,11 +21,13 @@ body {
 100% { opacity: 1;-moz-transform: scale(1); }
 }
 .knock {
-  background: transparent;
+  height: 3.75em;
   width: 75%;
-  height: 100%;
-  position: relative;
-  margin-left: 6em;
+  background: transparent;
+  max-width: 75%;
+  position: fixed;
+  top: .625em;
+  left: 6em;
   z-index: 11;
   opacity: 1;
 }
