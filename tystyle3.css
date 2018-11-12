@@ -183,16 +183,16 @@ input[type=checkbox] {
     z-index: 99;
     height: 100%;
     width: 100%;
-    top: 32px;
-    right: 15px;
-    height: 22px;
-    width: 22px;
+    top: 25px;
+    right: 20px;
+    height: 44px;
+    width: 44px;
 }
 .spinner {
     transition: all 0.3s;
     box-sizing: border-box;
     position: absolute;
-    height: 3px;
+    height: 4px;
     width: 100%;
     background-color: #fff;
 }
