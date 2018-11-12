@@ -60,12 +60,13 @@ h2 {
 .knockout {
     font-size: 3.5em;
     font-weight: 900;
-    color: #000;
+    color: #75ff28;
     font-family: 'Amatic SC', bold;
-    letter-spacing: .35em;
-    text-align: center;
+    letter-spacing: .15em;
+    text-align: right;
     text-transform: uppercase;
-    opacity: .1;
+    bottom-margin: .1em;
+    opacity: .4;
     /*text-shadow: #2c2c2c 3px 3px 5px;*/
 }
 html {
