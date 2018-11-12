@@ -82,13 +82,12 @@ html {
 
 
 .topnav a:hover {
-  opacity: 0.75;
   background-color: #ddd;
   color: black;
 }
 
 .active {
-  opacity: 0.75;
+  opacity: 1;
   background-color: #4CAF50;
   color: white;
 }
