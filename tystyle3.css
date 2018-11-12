@@ -24,12 +24,12 @@ body {
   background: transparent;
   font-weight: bold;
   font-size: 90vh;
-  font-color: #000;
+  color: #000;
   font-family: 'Cinzel', serif;
   width: 75%;
   height: 100%;
-  position: fixed;
-  left: 6em;
+  position: relative;
+  margin-left: 6em;
   z-index: 11;
   text-align: left;
   text-transform: uppercase;
