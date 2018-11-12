@@ -28,6 +28,7 @@ body {
   position: fixed;
   top: .625em;
   left: 6em;
+  margin-bottom: 5.938em;
   z-index: 11;
 }
 
@@ -65,7 +66,6 @@ h2 {
     letter-spacing: .15em;
     text-align: right;
     text-transform: uppercase;
-    bottom-margin: .1em;
     opacity: .4;
     /*text-shadow: #2c2c2c 3px 3px 5px;*/
 }
