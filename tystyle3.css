@@ -201,7 +201,7 @@ input[type=checkbox] {
     box-sizing: border-box;
     position: relative;
     float: right;
-    margin-top: 3px;
+    margin-top: 4px;
 }
 .diagonal.part-1 {
     position: relative;
@@ -214,7 +214,7 @@ input[type=checkbox] {
     box-sizing: border-box;
     position: relative;
     float: right;
-    margin-top: 3px;
+    margin-top: 4px;
 }
 input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
     transition: all 0.3s;
@@ -233,6 +233,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     transition: all 0.3s;
     box-sizing: border-box;
     transform: rotate(-135deg);
-    margin-top: -9px;
+    margin-top: 8px;
     z-index: 200;
 }
