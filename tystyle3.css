@@ -258,27 +258,23 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     transform-origin: 49% 2%;
     margin-top: 0.13em;
     z-index: 200;
-}
-.both {
-  width: 40em;
-  height: 14.071em;
-  background: transparent;
-  float left
-  z-index: 11;
-}
 .tube {
   width: 25em;
   height: 14.071em;
   background: transparent;
+  position: relative;
   float left
   z-index: 11;
+  display: inline-block;
 }
 .info {
   width: 15em;
   height: 14.071em;
-  float: right;
+  position: relative;
+  float left
   background: transparent;
   z-index: 11;
+  display: inline-block;
 }
 /*Make Tutorial Description pop-out*/
 .box {
