@@ -308,7 +308,9 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 
 .overlay {
-  position: relative;
+  position: fixed;
+  width: 25em;
+  height: 14.071em;
   top: 0;
   bottom: 0;
   left: 0;
