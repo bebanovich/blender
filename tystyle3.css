@@ -77,21 +77,21 @@ html {
 /* Style the logo */
 .logo {
   position: fixed;
-  left: 1.5em;
+  left: 1.5rem;
   top: 0;
   z-index: 100;
-  width: 4.375em;
-  height: 9.500em;
+  width: 4.375rem;
+  height: 9.500rem;
 }
 .topnav {    
-  height: 3.75em;
+  height: 3.75rem;
   width: 100%;
   max-width: 100%;
   opacity: 0.75;
   overflow: hidden;
   background: linear-gradient(-90deg, #1e7724 0%, #000000 100%);
   position: fixed;
-  top: .625em;
+  top: .625rem;
   z-index: 10;
 }
     
@@ -99,9 +99,9 @@ html {
 
 .topnav a {
   color: white;
-  padding: 0.875em 1em;
+  padding: 0.875rem 1em;
   text-decoration: none;
-  font-size: 1.063em;
+  font-size: 1.063rem;
   display: block;
 }
 
