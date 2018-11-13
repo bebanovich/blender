@@ -280,11 +280,11 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 
 .button {
-  font-size: 1em;
+  font-size: .5em;
   padding: 0.214em;
   color: #fff;
   border: 2px solid #06D85F;
-  border-radius: 2px/5px;
+  border-radius: 1px/2px;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease-out;
