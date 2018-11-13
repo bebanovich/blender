@@ -151,7 +151,7 @@ html {
     position: fixed;
     right: 0;
     width:17.857em;
-    top: 5.17;
+    top: 5.17em;
     transform: translateX(+17.857em);
     transition: transform 250ms ease-in-out;
     background: linear-gradient(180deg, #1e7724 0%, #000000 100%);
@@ -202,7 +202,7 @@ input[type=checkbox] {
     z-index: 99;
     height: 100%;
     width: 100%;
-    top: 0.714em;
+    top: 2em;
     right: 2.143em;
     height: 3.143em;
     width:3.143em;
