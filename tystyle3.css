@@ -59,14 +59,14 @@ h2 {
     text-align: left;
 }
 .knockout {
-    font-size: 2.5em;
+    font-size: 2.7em;
     font-weight: 900;
     color: #75ff28;
     font-family: 'Amatic SC', bold;
     letter-spacing: .1em;
-    text-align: right;
+    text-align: left;
     text-transform: uppercase;
-    opacity: .1;
+    opacity: .3;
     text-shadow: #2c2c2c 3px 3px 5px;
 }
 html {
@@ -139,6 +139,7 @@ html {
     display: block;
     height: 100%;
     margin-top: 5.938em;
+    z-index: 50;
 }
 .mainInner{
     display: table;
