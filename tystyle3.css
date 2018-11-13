@@ -80,7 +80,7 @@ html {
   height: 10.857em;
 }
 .topnav {    
-  height: 4.286em;
+  height: 5em;
   width: 100%;
   max-width: 100%;
   opacity: 0.75;
@@ -152,7 +152,7 @@ html {
     position: fixed;
     right: 0;
     width:17.857em;
-    top: 5em;
+    top: 2em;
     transform: translateX(+17.857em);
     transition: transform 250ms ease-in-out;
     background: linear-gradient(180deg, #1e7724 0%, #000000 100%);
