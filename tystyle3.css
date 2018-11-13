@@ -260,7 +260,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     z-index: 200;
 }
 .both {
-  width: 50em;
+  width: 40em;
   height: 14.071em;
   background: transparent;
   float left
@@ -274,7 +274,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   z-index: 11;
 }
 .info {
-  width: 25em;
+  width: 15em;
   height: 14.071em;
   float: right;
   background: transparent;
