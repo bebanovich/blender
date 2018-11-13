@@ -289,19 +289,26 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   margin-left: 1em;
 }
 .button {
-  font-size: 1.5em;
-  padding: 1em;
-  color: #fff;
-  border: 2px solid #06D85F;
-  border-radius: 20px/50px;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.3s ease-out;
-  position: absolute;
-  top: 50%;
-  bottom: 50%;
-  right: 50%;
-  left: 50%;
+    font-size: 1.2em;
+    padding: 1m;
+    color: #fff;
+    border: 2px solid #06D85F;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 75%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    text-align: center;
 }
 .button:hover {
   background: #06D85F;
