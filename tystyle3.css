@@ -151,7 +151,7 @@ html {
     position: fixed;
     right: 0;
     width:17.857em;
-    top: 5.17em;
+    top: 5.7em;
     transform: translateX(+17.857em);
     transition: transform 250ms ease-in-out;
     background: linear-gradient(180deg, #1e7724 0%, #000000 100%);
