@@ -279,7 +279,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 /*Make Tutorial Description pop-out*/
 .box {
-  width: 40%;
+  width: 100%;
   margin: 0 auto;
   background: rgba(255,255,255,0.2);
   padding: 35px;
@@ -303,7 +303,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 
 .overlay {
-  position: fixed;
+  position: relative;
   top: 0;
   bottom: 0;
   left: 0;
@@ -351,11 +351,11 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   overflow: auto;
 }
 
-@media screen and (max-width: 700px){
-  .box{
-    width: 70%;
-  }
-  .popup{
-    width: 70%;
-  }
-}
+/*@media screen and (max-width: 700px){*/
+/*  .box{*/
+/*    width: 70%;*/
+/*  }*/
+/*  .popup{*/
+/*    width: 70%;*/
+/*  }*/
+/*}*/
