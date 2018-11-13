@@ -298,6 +298,10 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   cursor: pointer;
   transition: all 0.3s ease-out;
   position: absolute;
+  top: 50%;
+  bottom: 50%;
+  right: 50%;
+  left: 50%;
 }
 .button:hover {
   background: #06D85F;
