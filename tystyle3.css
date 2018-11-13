@@ -200,11 +200,9 @@ input[type=checkbox] {
     cursor: pointer;
     position: fixed;
     z-index: 99;
-    height: 100%;
-    width: 100%;
     top: 2em;
     right: 2.143em;
-    /*height: 3.143em;*/
+    height: 3.143em;
     width:3.143em;
 }
 .spinner {
