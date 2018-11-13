@@ -249,7 +249,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
     transition: all 0.3s;
     box-sizing: border-box;
     transform: rotate(135deg);
-    transform-origin: 46% 165%;
+    transform-origin: 46% 166%;
     /*margin-top: 1.929em;*/
     z-index: 200;
 }
@@ -257,7 +257,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     transition: all 0.3s;
     box-sizing: border-box;
     transform: rotate(-135deg);
-    transform-origin: 50% 2%;
-    margin-top: 0.107em;
+    transform-origin: 49% 2%;
+    margin-top: 0.13em;
     z-index: 200;
 }
