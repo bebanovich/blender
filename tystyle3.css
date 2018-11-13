@@ -15,7 +15,7 @@ body {
 100% { opacity: 1;-moz-transform: scale(1); }
 }
 .knock {
-  height: 4.286em;
+  height: 5em;
   width: 65%;
   background: transparent;
   max-width: 65%;
@@ -227,7 +227,7 @@ input[type=checkbox] {
     transition: all 0.3s;
     box-sizing: border-box;
     float: right;
-    margin-top:0.214em;
+    margin-top:0.357em;
     /*margin-top: 1.929em;*/
 
 }
@@ -236,7 +236,7 @@ input[type=checkbox] {
     box-sizing: border-box;
     position: relative;
     float: right;
-    margin-top:0.214em;
+    margin-top:0.357em;
     /*margin-top: 0.107em;*/
 }
 input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
@@ -250,6 +250,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
     box-sizing: border-box;
     transform: rotate(135deg);
     transform-origin: 46% 165%;
+    margin-top: 1.929em;
     z-index: 200;
 }
 input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
@@ -257,5 +258,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     box-sizing: border-box;
     transform: rotate(-135deg);
     transform-origin: 50% 2%;
+    margin-top: 0.107em;
     z-index: 200;
 }
