@@ -211,7 +211,7 @@ input[type=checkbox] {
     transition: all 0.3s;
     box-sizing: border-box;
     position: absolute;
-    height: 0.357em;
+    height: 0.286em;
     width: 100%;
     background-color: #fff;
 }
@@ -220,14 +220,14 @@ input[type=checkbox] {
     box-sizing: border-box;
     position: relative;
     float: right;
-    margin-top:0.214em;
+    margin-top: .357em;
 }
 .diagonal.part-1 {
     position: relative;
     transition: all 0.3s;
     box-sizing: border-box;
     float: right;
-    margin-top:0.357em;
+    margin-top: .357em;
     /*margin-top: 1.929em;*/
 
 }
