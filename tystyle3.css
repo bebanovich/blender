@@ -202,7 +202,7 @@ input[type=checkbox] {
     z-index: 99;
     height: 100%;
     width: 100%;
-    top: 0em;
+    top: 2em;
     right: 2.143em;
     height: 3.143em;
     width:3.143em;
@@ -250,7 +250,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
     box-sizing: border-box;
     transform: rotate(135deg);
     transform-origin: 46% 165%;
-    margin-top: 1.929em;
+    */margin-top: 1.929em;*/
     z-index: 200;
 }
 input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
@@ -258,6 +258,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     box-sizing: border-box;
     transform: rotate(-135deg);
     transform-origin: 50% 2%;
-    margin-top: 0.107em;
+   /* margin-top: 0.107em;*/
     z-index: 200;
 }
