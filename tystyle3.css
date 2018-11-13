@@ -268,7 +268,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   display: inline-block;
 }
 .info {
-  width: 15em;
+  width: 25em;
   height: 14.071em;
   position: relative;
   background: transparent;
@@ -277,7 +277,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 /*Make Tutorial Description pop-out*/
 .box {
-  width: 100%;
+  width: 40%;
   margin: 0 auto;
   background: rgba(255,255,255,0.2);
   padding: 35px;
@@ -297,14 +297,14 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease-out;
-  position: relative;
+  position: absolute;
 }
 .button:hover {
   background: #06D85F;
 }
 
 .overlay {
-  position: relative;
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -325,7 +325,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   background: #fff;
   border-radius: 5px;
   width: 30%;
-  position: relative;
+  position: absolute;
   transition: all 5s ease-in-out;
 }
 
