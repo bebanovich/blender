@@ -258,6 +258,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     transform-origin: 49% 2%;
     margin-top: 0.13em;
     z-index: 200;
+}
 .tube {
   width: 25em;
   height: 14.071em;
