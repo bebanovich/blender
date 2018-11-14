@@ -165,6 +165,7 @@ html {
     border-top: 0.071em solid rgba(255, 255, 255, 0.10);
 }
 .sidebarMenuInner li{
+    display: inline-block;
     list-style: none;
     color: #fff;
     text-transform: uppercase;
