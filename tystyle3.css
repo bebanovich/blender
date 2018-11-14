@@ -207,7 +207,7 @@ input[type=checkbox] {
     box-sizing: border-box;
     cursor: pointer;
     position: fixed;
-    z-index: 99;
+    z-index: 200;
     top: 2em;
     right: 2.143em;
     height: 3.143em;
