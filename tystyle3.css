@@ -85,7 +85,6 @@ html {
   height: 5em;
   width: 100%;
   max-width: 100%;
-  opacity: 0.75;
   overflow: hidden;
   /*background: linear-gradient(-90deg, #1e7724 0%, #000000 100%);*/
   /*background: rgba(255,255,255,0.1);*/
@@ -160,7 +159,7 @@ html {
     transform: translateX(+100%);
     transition: transform 250ms ease-in-out;
     background: linear-gradient(-90deg, #1e7724 0%, #000000 100%);
-    opacity: .90;
+    opacity: .80;
     z-index: 21;
 }
 .sidebarMenuInner{
