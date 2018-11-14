@@ -1,6 +1,7 @@
 body { 
     font-size: 14px; font-size: 1.4em;  /* =14px */
-     background-color: black;
+    color: white;
+    background-color: black;
 }
 @keyframes pop-in {
 0% { opacity: 0;transform: scale(0.5); }
