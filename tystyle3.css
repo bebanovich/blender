@@ -159,7 +159,7 @@ html {
     transform: translateX(+100%);
     transition: transform 250ms ease-in-out;
     background: linear-gradient(-90deg, #1e7724 0%, #000000 100%);
-    opacity: .75;
+    opacity: .90;
     z-index: 21;
 }
 .sidebarMenuInner{
@@ -185,6 +185,7 @@ html {
     font-size: 1em;
     color: rgba(255, 255, 255, 0.50);
     z-index: 24;
+    opacity: .8;
 }
 .sidebarMenuInner li a{
     display: inline-block;
