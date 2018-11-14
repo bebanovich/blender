@@ -38,7 +38,7 @@ body {
     top: 5%;
     z-index: -2;
     background-image: url("med_eyes.png");
-    background-size: 35em 39em;
+    background-size: contain;
     background-repeat:no-repeat;
 }
 h1 {
