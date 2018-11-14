@@ -291,7 +291,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 .box {
     width: 50%;
     margin: 0 auto;
-    background: rgba(255,255,255,0.2);
+    background: rgba(30, 119, 36 ,0.8);
     padding: 1em;
     border: 2px solid #fff;
     border-radius: 20px/50px;
@@ -305,7 +305,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
       font-size: 1.4em;
     padding: .1em;
     color: #fff;
-    border: 2px solid #06D85F;
+    border: 2px solid #75ff28;
     border-radius: 20px/50px;
     text-decoration: none;
     cursor: pointer;
@@ -326,7 +326,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     width: 95%;
 }
 .button:hover {
-  background: #06D85F;
+  background: #75ff28;
 }
 
 .overlay {
