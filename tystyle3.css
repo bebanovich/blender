@@ -182,7 +182,7 @@ html {
 }
 .sidebarMenuInner li span{
     display: inline-block;
-    font-size: 1em;
+    font-size: .5em;
     color: rgba(255, 255, 255, 0.50);
     z-index: 24;
     opacity: .1;
