@@ -99,7 +99,7 @@ html {
   padding: 1em 1.143em;
   text-decoration: none;
   font-size: 1.214em;
-  display: block;
+  display: inline-block;
 }
 
 
@@ -150,7 +150,7 @@ html {
 }
 #sidebarMenu {
     height: 5em;
-    position: fixed;
+    position: absolute;
     right: 0;
     width:720px;
     top: 0.714em;
