@@ -185,7 +185,7 @@ html {
     font-size: 1em;
     color: rgba(255, 255, 255, 0.50);
     z-index: 24;
-    opacity: .8;
+    opacity: .1;
 }
 .sidebarMenuInner li a{
     display: inline-block;
