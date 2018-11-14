@@ -154,7 +154,7 @@ html {
     right: 0;
     width:720px;
     top: 0.714em;
-    transform: translateX(+500px);
+    transform: translateX(+750px);
     transition: transform 250ms ease-in-out;
     background: linear-gradient(180deg, #1e7724 0%, #000000 100%);
     opacity: .95;
@@ -193,7 +193,6 @@ html {
 }
 input[type="checkbox"]:checked ~ #sidebarMenu {
     transform: translateX(0);
-    z-index: 200;
 }
 
 input[type=checkbox] {
