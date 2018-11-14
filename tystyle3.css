@@ -302,10 +302,10 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     height: 10%;
 }
 .button {
-      font-size: 1.4em;
+    font-size: 1.4em;
     padding: .1em;
     color: #fff;
-    border: 2px solid #75ff28;
+    border: 1px solid #75ff28;
     border-radius: 20px/50px;
     text-decoration: none;
     cursor: pointer;
@@ -326,7 +326,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     width: 95%;
 }
 .button:hover {
-  background: ##1e7724;
+  background: #1e7724;
 }
 
 .overlay {
