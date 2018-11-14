@@ -278,7 +278,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 /*Make Tutorial Description pop-out*/
 .box {
-  width: 40%;
+  width: 30%;
   margin: 0 auto;
   background: rgba(255,255,255,0.2);
   padding: 35px;
@@ -317,8 +317,8 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 .overlay {
     position: fixed;
-    width: 25em;
-    height: 14.071em;
+    width: 22em;
+    height: 12em;
     background: rgba(0, 0, 0, 0.7);
     transition: opacity 500ms;
     visibility: hidden;
@@ -335,8 +335,8 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 25em%;
-  height: 15em;
+  width: 22em;
+  height: 12em;
   position: fixed;
   transition: all 5s ease-in-out;
 }
