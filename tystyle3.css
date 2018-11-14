@@ -149,11 +149,11 @@ html {
 }
 #sidebarMenu {
     height: 100%;
-    position: fixed;
+    position: absolute;
     right: 0;
-    width:17.857em;
+    width:100%
     top: 5.7em;
-    transform: translateX(+17.857em);
+    transform: translateX(+100%);
     transition: transform 250ms ease-in-out;
     background: linear-gradient(180deg, #1e7724 0%, #000000 100%);
     opacity: .95;
@@ -173,7 +173,7 @@ html {
     border-bottom: 0.071em solid rgba(255, 255, 255, 0.10);
 }
 .sidebarMenuInner li span{
-    display: block;
+    display: inline-block;
     font-size: 1em;
     color: rgba(255, 255, 255, 0.50);
 }
