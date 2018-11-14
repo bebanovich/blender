@@ -106,7 +106,7 @@ html {
 
 
 .topnav a:hover {
-  background-color: #1e7724;
+  background-color: rgba(30, 119, 36 ,0.9);
   color: black;
 }
 
