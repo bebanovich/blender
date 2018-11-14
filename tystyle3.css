@@ -158,12 +158,14 @@ html {
     transition: transform 250ms ease-in-out;
     background: linear-gradient(180deg, #1e7724 0%, #000000 100%);
     opacity: .95;
+    z-index: 21;
 }
 .sidebarMenuInner{
     display: inline-block;
     margin:0;
     padding:0;
     border-top: 0.071em solid rgba(255, 255, 255, 0.10);
+    z-index: 22;
 }
 .sidebarMenuInner li{
     list-style: none;
@@ -173,11 +175,13 @@ html {
     padding: 1.429em;
     cursor: pointer;
     border-bottom: 0.071em solid rgba(255, 255, 255, 0.10);
+    z-index: 23;
 }
 .sidebarMenuInner li span{
     display: inline-block;
     font-size: 1em;
     color: rgba(255, 255, 255, 0.50);
+    z-index: 24;
 }
 .sidebarMenuInner li a{
     color: #fff;
@@ -185,6 +189,7 @@ html {
     font-weight: bold;
     cursor: pointer;
     text-decoration: none;
+    z-index: 25;
 }
 input[type="checkbox"]:checked ~ #sidebarMenu {
     transform: translateX(0);
