@@ -190,7 +190,7 @@ html {
 }
 .sidebarMenuInner li a{
     display: inline-block;
-    color: #1e7724;
+    color: #fff;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
