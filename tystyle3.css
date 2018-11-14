@@ -34,8 +34,8 @@ body {
     width: 30em;
     height: 33em;
     position: fixed;  
-    Right: 10%;
-    top: 10%;
+    Right: 0;
+    top: 5%;
     z-index: -2;
     background-image: url("med_eyes.png");
     background-repeat:no-repeat;
