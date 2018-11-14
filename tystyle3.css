@@ -16,9 +16,9 @@ body {
 }
 .knock {
   height: 5em;
-  width: 25%;
+  width: 40%;
   background: transparent;
-  max-width: 25%;
+  max-width: 40%;
   position: fixed;
   top: .0.714em;
   left: 6em;
@@ -152,9 +152,10 @@ html {
     height: 5em;
     position: absolute;
     right: 0;
-    width:720px;
+    width:60%;
+    max-width:60%;
     top: 0.714em;
-    transform: translateX(+750px);
+    /*transform: translateX(+750px);*/
     transition: transform 250ms ease-in-out;
     background: linear-gradient(-90deg, #1e7724 0%, #000000 100%);
     opacity: .75;
