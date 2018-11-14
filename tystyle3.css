@@ -315,7 +315,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 
 .overlay {
-     position: fixed;
+    position: fixed;
     width: 25em;
     height: 14.071em;
     background: rgba(0, 0, 0, 0.7);
@@ -330,12 +330,12 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 
 .popup {
-  margin: 70px auto;
+  margin: 0 auto;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
   width: 30%;
-  position: absolute;
+  position: fixed;
   transition: all 5s ease-in-out;
 }
 
