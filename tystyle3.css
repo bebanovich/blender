@@ -190,13 +190,12 @@ html {
 }
 .sidebarMenuInner li a{
     display: inline-block;
-    color: #000;
+    color: #1e7724;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
     text-decoration: none;
     z-index: 25;
-    opacity: .6;
 }
 input[type="checkbox"]:checked ~ #sidebarMenu {
     transform: translateX(0);
