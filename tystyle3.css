@@ -154,7 +154,7 @@ html {
     right: 0;
     width:60%;
     max-width:60%;
-    top: 0.714em;
+    top: 0;
     /*transform: translateX(+750px);*/
     transition: transform 250ms ease-in-out;
     background: linear-gradient(-90deg, #1e7724 0%, #000000 100%);
