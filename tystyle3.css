@@ -31,14 +31,13 @@ body {
     -moz-animation:pop-in 5s;
     -ms-animation:pop-in 5s;
     animation-timing-function: ease-in;
-    width: 35em;
-    height: 38em;
+    width: 31.250em;
+    height: 33.875em;
     position: fixed;  
     Right: 0;
     bottom: 0%;
     z-index: -2;
-    background-image: url("med_eyes.png");
-    background-size: contain;
+    background-image: url("sub_med_eyes.png");
     background-repeat:no-repeat;
 }
 h1 {
