@@ -16,14 +16,14 @@ body {
 }
 .knock {
   height: 5em;
-  width: 65%;
+  width: 25%;
   background: transparent;
-  max-width: 65%;
+  max-width: 25%;
   position: fixed;
   top: .0.714em;
   left: 6em;
   padding-bottom: .0.714em;
-  z-index: 11;
+  z-index: 30;
 }
 
 .pop {
@@ -87,7 +87,7 @@ html {
   opacity: 0.75;
   overflow: hidden;
   /*background: linear-gradient(-90deg, #1e7724 0%, #000000 100%);*/
-  background: rgba(255,255,255,0.09);
+  background: rgba(255,255,255,0.1);
   position: fixed;
   top: 0.714em;
   z-index: 10;
@@ -156,8 +156,8 @@ html {
     top: 0.714em;
     transform: translateX(+750px);
     transition: transform 250ms ease-in-out;
-    background: linear-gradient(180deg, #1e7724 0%, #000000 100%);
-    opacity: .95;
+    background: linear-gradient(-90deg, #1e7724 0%, #000000 100%);
+    opacity: .75;
     z-index: 21;
 }
 .sidebarMenuInner{
@@ -168,6 +168,7 @@ html {
     z-index: 22;
 }
 .sidebarMenuInner li{
+    display: inline-block;
     list-style: none;
     color: #fff;
     text-transform: uppercase;
@@ -184,6 +185,7 @@ html {
     z-index: 24;
 }
 .sidebarMenuInner li a{
+    display: inline-block;
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
