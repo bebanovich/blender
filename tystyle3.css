@@ -63,10 +63,10 @@ body {
     width: 10.714em;
     height: 2.714em;
     position: fixed;  
-    left: 35em;
-    top: 30em;
-    z-index: -2;
-    background-image: url("purple_eyes.png");
+    left: 30em;
+    top: 250em;
+    z-index: -1;
+    background-image: url("purple_eyes_sm.png");
     background-repeat:no-repeat;
     opacity: .5;
 }
