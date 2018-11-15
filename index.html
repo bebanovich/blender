@@ -12,6 +12,15 @@
 <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Butcherman" rel="stylesheet">
+	<script>
+		//Fix z-index youtube video embedding
+$(document).ready(function (){
+    $('iframe').each(function(){
+        var url = $(this).attr("src");
+        $(this).attr("src",url+"?wmode=transparent");
+    });
+});
+	</script>
 </head>
 <body>
 <!-- Top Navigation Menu -->
