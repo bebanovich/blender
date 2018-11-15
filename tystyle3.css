@@ -450,8 +450,8 @@ input{
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(0,0,0,0.9);
-	z-index: 500;
+	background: rgba(0,0,0,1);
+	z-index: 5000;
 }
 
 .sublay label {
@@ -460,7 +460,7 @@ input{
 	position: absolute;
 	right: 20px;
 	top: 20px;
-	z-index: 501;
+	z-index: 5001;
   	cursor:pointer;
 }
 
