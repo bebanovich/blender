@@ -2,19 +2,41 @@
   {
     "id": 1,
     "name": "Remove Strings Arm",
-    "vid_id": "bUXSpZf1TTY",
-    "shortcuts": "1", "2"
+    "specs": {
+      "vid_id": "bUXSpZf1TTY",
+      "shortcuts": "1", "2",
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "image": {
+      "small": "/images/icons/icon-96x96.png",
+      "large": "/images/icons/icon-512x512.png"
+    }
   },
   {
-    "id": 1,
+    "id": 2,
     "name": "Mirror Arm Bones",
-    "vid_id": "Orv9rJvL8p8",
-    "shortcuts": "2"
+    "specs": {
+      "vid_id": "Orv9rJvL8p8",
+      "shortcuts": "2",
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "image": {
+      "small": "/images/sony-xperia-z3.jpg",
+      "large": "/images/sony-xperia-z3-large.jpg"
+    }
   },
-  {
-    "id": 1,
+    {
+    "id": 3,
     "name": "Name and Orient the New Bones",
-    "vid_id": "i9H_Nohe3Mw",
-    "shortcuts": "1"
-  }
+   
+
+    "specs": {
+      "vid_id": "i9H_Nohe3Mw",
+      "shortcuts": "1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "image": {
+      "small": "/images/sony-xperia-z3.jpg",
+      "large": "/images/sony-xperia-z3-large.jpg"
+    }
+  },
 ]
