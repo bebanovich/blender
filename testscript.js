@@ -40,7 +40,7 @@ $(function () {
         // Get data about our products from products.json.
 
         // Call a function that will turn that data into HTML.
-        generateAllProductsHTML(data);
+        generateAllTutorialsHTML(data);
 
         // Manually trigger a hashchange to start the app.
         $(window).trigger('hashchange');
@@ -70,7 +70,7 @@ $(function () {
         // Shows the Single Tutorial Page with appropriate data.
     }
 
-    function renderFilterResults(filters, products){
+    function renderFilterResults(filters, tutorials){
         // Crates an object with filtered Tutorials and passes it to renderTutorialsPage.
         renderTutorialsPage(results);
     }
@@ -101,14 +101,14 @@ function render(url) {
                 filters = {};
                 checkboxes.prop('checked',false);
 
-                renderTutorialsPage(products);
+                renderTutorialsPage(tutorials);
             },
 
             // Single Products page.
             '#tutorial': function() {
 
                 // Get the index of which product we want to show and call the appropriate function.
-                var index = url.split('#product/')[1].trim();
+                var index = url.split('#tutorial/')[1].trim();
 
                 renderSingleShortcutPage(index, tutorials);
             },
