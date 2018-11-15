@@ -41,6 +41,22 @@ body {
     background-image: url("sub_med_eyes.png");
     background-repeat:no-repeat;
 }
+
+.eyes {
+    -webkit-animation:pop-in 5s;
+    -moz-animation:pop-in 5s;
+    -ms-animation:pop-in 5s;
+    animation-timing-function: ease-in;
+    width: 28.571em;
+    height: 7.143em;
+    position: fixed;  
+    left: 10em;
+    top: 30em;
+    z-index: -2;
+    background-image: url("purple_eyes.png");
+    background-repeat:no-repeat;
+}
+
 h1 {
     font-size: 24px; font-size: 2.4em; /* =24px */
     font-family: 'Nosifer', cursive;
