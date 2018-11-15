@@ -483,7 +483,9 @@ input{
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(0,0,0,.8);
+	background: rgba((49,0,74,.7);
+	background-image: url("Simon.png");
+    	background-repeat:no-repeat;
 	z-index: 5000;
 }
 
