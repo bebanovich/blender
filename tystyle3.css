@@ -17,15 +17,15 @@ body {
 }
 @keyframes eye-in {
 	0% { opacity: 0;transform: scale(0); }
-	100% { opacity: .4;transform: scale(1); }
+	100% { opacity: .3;transform: scale(1); }
 }
 @-webkit-keyframes eye-in {
 	0% { opacity: 0;-webkit-transform: scale(0); }
-	100% { opacity: .4;-webkit-transform: scale(1); }
+	100% { opacity: .3;-webkit-transform: scale(1); }
 }
 @-moz-keyframes eye-in {
 	0% { opacity: 0;-moz-transform: scale(0); }
-	100% { opacity: .4;-moz-transform: scale(1); }
+	100% { opacity: .3;-moz-transform: scale(1); }
 }
 .knock {
   height: 5em;
@@ -67,7 +67,7 @@ body {
     z-index: 2;
     background-image: url("purple_eyes_sm.png");
     background-repeat:no-repeat;
-    opacity: .5;
+    opacity: .3;
 }
 
 h1 {
