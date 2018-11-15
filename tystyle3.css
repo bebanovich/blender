@@ -412,14 +412,14 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 /*Sub Overlay*/
 .lower {
- 	width:340px;
+ 	width:50%;
 	margin:10% auto;
-	padding:50px;
+	padding:1em;
 	background:white;
 	opacity:0.8;
   	color:black;
   	box-shadow:inset 0 0 0 1px black;
-  	border:30px solid white;
+  	border:.5em solid white;
 }
 
 .lower:hover {
