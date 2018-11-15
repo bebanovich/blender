@@ -55,9 +55,9 @@ body {
 }
 
 .eyes {
-    -webkit-animation:eye-in 9s;
-    -moz-animation:eye-in 9s;
-    -ms-animation:eye-in 9s;
+    -webkit-animation:eye-in 7s;
+    -moz-animation:eye-in 7s;
+    -ms-animation:eye-in 7s;
     animation-timing-function: ease-in;
     width: 5.357em;
     height: 1.357em;
