@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Duplicate Objects"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu."
+    }
+  },
+  {
+    "id": 2,
+    "name": "Mirror Objects"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "rating": 4,
+    "image": {
+      "small": "/images/iphone6.jpg",
+      "large": "/images/iphone6-large.jpg"
+    }
+  }
+]
