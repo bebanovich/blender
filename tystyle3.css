@@ -165,7 +165,10 @@ html {
 
 .sidebarMenuInner{
     display: inline-block;
-    padding:0;
+    padding-left: 0;
+    padding-right: 2em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
     /*border-top: 0.071em solid rgba(255, 255, 255, 0.10);*/
     z-index: 22;
 }
