@@ -8,7 +8,7 @@ $(function () {
         createQueryHash(filters);
     });
 
-    $.getJSON( "products.json", function( data ) {
+    $.getJSON( "tutorials.json", function( data ) {
         // Get data about our products from products.json.
 
         // Call a function that will turn that data into HTML.
@@ -29,22 +29,22 @@ $(function () {
         // depending on the current url hash value.
     }
 
-    function generateAllProductsHTML(data){
+    function generateAllTutorialsHTML(data){
         // Uses Handlebars to create a list of products using the provided data.
         // This function is called only once on page load.
     }
 
-    function renderProductsPage(data){
-        // Hides and shows products in the All Products Page depending on the data it recieves.
+    function renderTutorialsPage(data){
+        // Hides and shows Tutorials in the All Tutorials Page depending on the data it recieves.
     }
 
-    function renderSingleProductPage(index, data){
-        // Shows the Single Product Page with appropriate data.
+    function renderSingleShortcutPage(index, data){
+        // Shows the Single Tutorial Page with appropriate data.
     }
 
     function renderFilterResults(filters, products){
-        // Crates an object with filtered products and passes it to renderProductsPage.
-        renderProductsPage(results);
+        // Crates an object with filtered Tutorials and passes it to renderTutorialsPage.
+        renderTutorialsPage(results);
     }
 
     function renderErrorPage(){
@@ -69,20 +69,20 @@ function render(url) {
             // The Homepage.
             '': function() {
 
-                // Clear the filters object, uncheck all checkboxes, show all the products
+                // Clear the filters object, uncheck all checkboxes, show all the tutorials
                 filters = {};
                 checkboxes.prop('checked',false);
 
-                renderProductsPage(products);
+                renderTutorialsPage(products);
             },
 
             // Single Products page.
-            '#product': function() {
+            '#tutorial': function() {
 
                 // Get the index of which product we want to show and call the appropriate function.
                 var index = url.split('#product/')[1].trim();
 
-                renderSingleProductPage(index, products);
+                renderSingleShortcutPage(index, tutorials);
             },
 
             // Page with filtered products
@@ -115,37 +115,37 @@ function render(url) {
         }
 
     }
-function generateAllProductsHTML(data){
+function generateAllTutorialsHTML(data){
 
-    var list = $('.all-products .products-list');
+    var list = $('.all-tutorials .tutorials-list');
 
-    var theTemplateScript = $("#products-template").html();
+    var theTemplateScript = $("#tutorials-template").html();
     //Compile the template​
     var theTemplate = Handlebars.compile (theTemplateScript);
     list.append (theTemplate(data));
 
-    // Each products has a data-index attribute.
+    // Each tutorial has a data-index attribute.
     // On click change the url hash to open up a preview for this product only.
     // Remember: every hashchange triggers the render function.
     list.find('li').on('click', function (e) {
       e.preventDefault();
 
-      var productIndex = $(this).data('index');
+      var tutorialIndex = $(this).data('index');
 
-      window.location.hash = 'product/' + productIndex;
+      window.location.hash = 'tutorial/' + tutorialIndex;
     })
   }
-function renderProductsPage(data){
+function renderTutorialsPage(data){
 
-    var page = $('.all-products'),
-      allProducts = $('.all-products .products-list > li');
+    var page = $('.all-tutorials'),
+      allTutorials = $('.all-tutorials .tutorials-list > li');
 
-    // Hide all the products in the products list.
-    allProducts.addClass('hidden');
+    // Hide all the tutorials in the tutorials list.
+    allTutorials.addClass('hidden');
 
-    // Iterate over all of the products.
+    // Iterate over all of the tutorials.
     // If their ID is somewhere in the data object remove the hidden class to reveal them.
-    allProducts.each(function () {
+    allTutorials.each(function () {
 
       var that = $(this);
 
@@ -161,18 +161,18 @@ function renderProductsPage(data){
     page.addClass('visible');
 
   }
-function renderSingleProductPage(index, data){
+function renderSingleShortcutPage(index, data){
 
-    var page = $('.single-product'),
+    var page = $('.single-shortcut'),
       container = $('.preview-large');
 
-    // Find the wanted product by iterating the data object and searching for the chosen index.
+    // Find the wanted shortcut by iterating the data object and searching for the chosen index.
     if(data.length){
       data.forEach(function (item) {
         if(item.id == index){
           // Populate '.preview-large' with the chosen product's data.
           container.find('h3').text(item.name);
-          container.find('img').attr('src', item.image.large);
+          //container.find('img').attr('src', item.image.large);
           container.find('p').text(item.description);
         }
       });
@@ -185,7 +185,7 @@ function renderSingleProductPage(index, data){
 function renderFilterResults(filters, products){
 
       // This array contains all the possible filter criteria.
-    var criteria = ['manufacturer','storage','os','camera'],
+    var criteria = ['name','vid_id','shortcuts'],
       results = [],
       isFiltered = false;
 
@@ -244,9 +244,9 @@ function renderFilterResults(filters, products){
 
     });
 
-    // Call the renderProductsPage.
+    // Call the renderTutorialsPage.
     // As it's argument give the object with filtered products.
-    renderProductsPage(results);
+    renderTutorialsPage(results);
   }
 function renderErrorPage(){
     var page = $('.error');
