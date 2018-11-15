@@ -332,7 +332,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 .overlay {
     position: fixed;
     width: 22em;
-    height: 12em;
+    height:50em;
     background: rgba(0, 0, 0, 0.7);
     transition: opacity 500ms;
     visibility: hidden;
