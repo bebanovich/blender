@@ -15,6 +15,18 @@ body {
 	0% { opacity: 0;-moz-transform: scale(0.5); }
 	100% { opacity: 1;-moz-transform: scale(1); }
 }
+@keyframes eye-in {
+	0% { opacity: 0;transform: scale(0.1); }
+	100% { opacity: .7;transform: scale(.5); }
+}
+@-webkit-keyframes eye-in {
+	0% { opacity: 0;-webkit-transform: scale(0.1); }
+	100% { opacity: .7;-webkit-transform: scale(.5); }
+}
+@-moz-keyframes eye-in {
+	0% { opacity: 0;-moz-transform: scale(0.1); }
+	100% { opacity: .7;-moz-transform: scale(.5); }
+}
 .knock {
   height: 5em;
   width: 30%;
@@ -43,9 +55,10 @@ body {
 }
 
 .eyes {
-    -webkit-animation:pop-in 5s;
-    -moz-animation:pop-in 5s;
-    -ms-animation:pop-in 5s;
+    -webkit-animation:eye-in 5s;
+    -moz-animation:eye-in 5s;
+    -ms-animation:eye-in 5s;
+    animation-delay: 2s;
     animation-timing-function: ease-in;
     width: 28.571em;
     height: 7.143em;
