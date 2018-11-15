@@ -331,7 +331,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 
 .overlay {
     position: fixed;
-    width: 22em;
+    width: 35em;
     height:50em;
     background: rgba(0, 0, 0, 0.7);
     transition: opacity 500ms;
@@ -349,8 +349,8 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 22em;
-  height: 12em;
+  width: 35em;
+  height:50em;
   position: fixed;
   transition: all 5s ease-in-out;
 }
@@ -428,6 +428,7 @@ input2{
 	top: 0;
 	left: 0;
 	background: rgba(0,0,0,0.9);
+	z-index: 500;
 }
 
 .sublay label{
@@ -436,7 +437,7 @@ input2{
 	position: absolute;
 	right: 20px;
 	top: 20px;
-	z-index: 100;
+	z-index: 501;
   cursor:pointer;
 }
 
