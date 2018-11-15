@@ -530,6 +530,7 @@ input2{
         max-width: 100%;
         background: #000;
         margin: 5px;
+	z-index: 11;
     }
     
     .youtube-player iframe {
@@ -540,6 +541,7 @@ input2{
         height: 100%;
         z-index: 100;
         background: transparent;
+	z-index: 11;
     }
     
     .youtube-player img {
@@ -558,6 +560,7 @@ input2{
         -webkit-transition: .4s all;
         -moz-transition: .4s all;
         transition: .4s all;
+	z-index: 11;
     }
     
     .youtube-player img:hover {
@@ -574,4 +577,5 @@ input2{
         position: absolute;
         background: url("//i.imgur.com/TxzC70f.png") no-repeat;
         cursor: pointer;
+	z-index: 11;
     }
