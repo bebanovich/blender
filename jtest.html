@@ -1,0 +1,57 @@
+<head>
+  <script type="text/javascript" src="arrayy.js"></script>
+</head>
+<body>
+<div class="main-content">
+
+    <div class="all-tutorials page">
+
+        <h3>Our Tutorials</h3>
+
+        <div class="filters">
+            <form>
+                Checkboxes here
+            </form>
+        </div>
+
+    <ul class="tutorials-list">
+      <script id="tutorials-template" type="x-handlebars-template">​
+        {{#each this}}
+          <li data-index="{{id}}">
+            <a href="#" class="tutorial-photo"><img src="{{image.small}}" height="96" alt="{{name}}"/></a>
+            <h2><a href="#"> {{name}} </a></h2>
+            <ul class="tutorial-description">
+              <li><span>Video ID: </span>{{specs.vid_id}}</li>
+              <li><span>Shortcuts: </span>{{specs.shortcuts}} GB</li>
+              <li><span>Description: </span>{{description}}</li>
+            </ul>
+            <button>Watch</button>
+            <div class="youtube-player" data-id="specs.vid_id}"></div>
+            <div class="highlight"></div>
+          </li>
+        {{/each}}
+      </script> 
+    </ul>
+
+    </div>
+
+    <div class="single-shortcut page">
+
+        <div class="overlay"></div>
+
+        <div class="preview-large">
+            <h3>Single Shortcut view</h3>
+            <img src=""/>
+            <p></p>
+
+            <span class="close">&times;</span>
+        </div>
+
+    </div>
+
+    <div class="error page">
+        <h3>Sorry, something went wrong :(</h3>
+    </div>
+
+</div>
+</body>
