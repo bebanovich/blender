@@ -55,10 +55,9 @@ body {
 }
 
 .eyes {
-    -webkit-animation:eye-in 5s;
-    -moz-animation:eye-in 5s;
-    -ms-animation:eye-in 5s;
-    animation-delay: 3s;
+    -webkit-animation:eye-in 9s;
+    -moz-animation:eye-in 9s;
+    -ms-animation:eye-in 9s;
     animation-timing-function: ease-in;
     width: 4.286em;
     height: 1.071em;
@@ -68,7 +67,7 @@ body {
     z-index: 2;
     background-image: url("purple_eyes_sm.png");
     background-repeat:no-repeat;
-    opacity: .3;
+    opacity: .5;
 }
 
 h1 {
