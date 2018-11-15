@@ -60,15 +60,15 @@ body {
     -ms-animation:eye-in 5s;
     animation-delay: 3s;
     animation-timing-function: ease-in;
-    width: 10.714em;
-    height: 2.714em;
+    width: 4.286em;
+    height: 1.071em;
     position: fixed;  
     right: 15em;
     top: 15em;
     z-index: 2;
     background-image: url("purple_eyes_sm.png");
     background-repeat:no-repeat;
-    opacity: .5;
+    opacity: .3;
 }
 
 h1 {
