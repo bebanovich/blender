@@ -4,7 +4,38 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="js/handlebars.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/fetch.js"></script>
+  <!-- <script src="js/fetch.js"></script> -->
+  <script>
+    var TUTORIAL_METHOD ={
+
+            handlerData:function(resJSON){
+
+                var templateSource   = $("#tutorial-template").html(),
+
+                    template = Handlebars.compile(templateSource),
+
+                    tutorialHTML = template(resJSON);
+
+               $('#my-container').html(tutorialHTML);
+
+      },
+        loadTutorialData : function(){
+
+            $.ajax({
+                url:"json/tutorials.json",
+                method:'get',
+                success:this.handlerData
+
+            })
+        }
+    };
+
+    $(document).ready(function(){
+
+        TUTORIAL_METHOD.loadTutorialData();
+    });
+
+    </script>
 <style>
       #my-container{
       width: 400px;
