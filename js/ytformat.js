@@ -1,5 +1,3 @@
-<script>
-
     /* Light YouTube Embeds by @labnol */
     /* Web: http://labnol.org/?p=27941 */
 
@@ -30,5 +28,3 @@
         iframe.setAttribute("allowfullscreen", "1");
         this.parentNode.replaceChild(iframe, this);
     }
-
-</script>
