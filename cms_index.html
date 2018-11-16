@@ -58,7 +58,9 @@
   <script id="tutorial-template" type="text/x-handlebars-template">
     {{#each tutorials}}
       <h2>{{this.name}}</h2>
+        <div class="tube">
           <div class="youtube-player" data-id={{this.vid_id}}></div>
+        </div>
     {{/each}}
   </script>
          <!--Handlebar templates end-->
