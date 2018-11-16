@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    background-image: url("images/big_eyes.png");
+    background-image: url("../images/big_eyes.png");
     background-repeat:no-repeat;
     background-position: right bottom;
     background-attachment: fixed;

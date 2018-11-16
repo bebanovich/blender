@@ -30,7 +30,7 @@ body {
     position: relative;
     float: right;
     z-index: -2;
-    background-image: url("images/watching_smaller.png");
+    background-image: url("../images/watching_smaller.png");
     background-repeat:no-repeat;
      background-position: right bottom;
    `background-attachment: fixed;

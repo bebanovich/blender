@@ -35,7 +35,7 @@
     Right: 0;
     bottom: 0%;
     z-index: -2;
-    background-image: url("images/sub_med_eyes.png");
+    background-image: url("../images/sub_med_eyes.png");
     background-repeat:no-repeat;
 }
 
@@ -51,7 +51,7 @@
     right: 36em;
     top: 36em;
     z-index: 2;
-    background-image: url("images/purple_eyes_sm.png");
+    background-image: url("../images/purple_eyes_sm.png");
     background-repeat:no-repeat;
     opacity: .4;
 }
