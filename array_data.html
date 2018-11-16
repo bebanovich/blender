@@ -44,29 +44,30 @@
 </style>
 </head>
 <body>
-       <div id="my-container" class="table-responsive">
-       </div>
+    <div id="my-container" class="table-responsive">
        <!--Handlebar templates start-->
        <script id="tutorial-template" type="text/x-handlebars-template">
-           <table class="table table-striped">
-               <thead>
-               <tr>
-                   <th>Name</th>
-                   <th>Description</th>
-                   <th>Image</th>
-               </tr>
-               </thead>
-               <tbody>
-               {{#each tutorials}}
-               <tr>
-                   <td>{{ this.name }}</td>
-                   <td>{{ this.description }}</td>
-                   <td>{{ this.image }}</td>
-               </tr>
-               {{/each}}
-               </tbody>
-           </table>
-       </script>
+
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Image</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {{#each tutorials}}
+                      <tr>
+                        <td>{{ this.name }}</td>
+                        <td>{{ this.description }}</td>
+                        <td>{{ this.image }}</td>
+                      </tr>
+                      {{/each}}
+                    </tbody>
+                  </table>
+                </script>
        <!--Handlebar templates end-->
+              </div>
    </body>
 </html>

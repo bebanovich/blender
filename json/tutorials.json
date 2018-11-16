@@ -1,43 +1,28 @@
-{"tutorials":
-[
+{
+  "tutorials": [
+
   {
     "id": 1,
     "name": "Remove Strings Arm",
-    "specs": {
-      "vid_id": "bUXSpZf1TTY",
-      "shortcuts": "1, 2"
-    },
+    "vid_id": "bUXSpZf1TTY",
+    "shortcuts": "1, 2",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
-    "image": {
-      "small": "/images/icons/icon-96x96.png",
-      "large": "/images/icons/icon-512x512.png"
-    }
+    "image": "/images/icons/icon-96x96.png"
   },
   {
     "id": 2,
     "name": "Mirror Arm Bones",
-    "specs": {
-      "vid_id": "Orv9rJvL8p8",
-      "shortcuts": "2"
-    },
+    "vid_id": "Orv9rJvL8p8",
+    "shortcuts": "2",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
-    "image": {
-    "small": "/images/icons/icon-96x96.png",
-    "large": "/images/icons/icon-512x512.png"
-    }
+    "image": "/images/icons/icon-96x96.png"
   },
     {
     "id": 3,
     "name": "Name and Orient the New Bones",
-    "specs": {
-      "vid_id": "i9H_Nohe3Mw",
-      "shortcuts": "1"
-   },
+    "vid_id": "i9H_Nohe3Mw",
+      "shortcuts": "1",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
-    "image": {
-    "small": "/images/icons/icon-96x96.png",
-    "large": "/images/icons/icon-512x512.png"
+    "image": "/images/icons/icon-96x96.png"
     }
-  },
-]
-}
+]}
