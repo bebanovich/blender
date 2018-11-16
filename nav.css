@@ -1,0 +1,244 @@
+/* <div> style for T & D Productions logo */
+.knock {
+  height: 5em;
+  width: 30%;
+  background: transparent;
+  max-width: 30%;
+  position: fixed;
+  top: .0.714em;
+  left: 6em;
+  padding-bottom: .0.714em;
+  z-index: 30;
+}
+
+/* Style for T & D Productions Logo */
+.knockout {
+    font-size: 2.7em;
+    font-weight: 900;
+    color: #75ff28;
+    font-family: 'Amatic SC', bold;
+    letter-spacing: .1em;
+    text-align: left;
+    text-transform: uppercase;
+    opacity: .3;
+    text-shadow: #2c2c2c 3px 3px 5px;
+    z-index: 50;
+}
+/* Position foil Epitome logo */
+.logo {
+  position: fixed;
+  left: 1.5em;
+  top: 0;
+  z-index: 100;
+  width: 5em;
+  height: 10.857em;
+}
+
+.topnav {
+  height: 5em;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  /*background: linear-gradient(-90deg, #1e7724 0%, #000000 100%);*/
+  /*background: rgba(255,255,255,0.1);*/
+  position: fixed;
+  top: 0.714em;
+  z-index: 10;
+}
+
+.topnav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.214em;
+  display: inline-block;
+  opacity: .5;
+}
+
+.topnav a:hover {
+  background-color: rgba(30, 119, 36 ,0.6);
+  color: white;
+}
+
+.active {
+  opacity: 1;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.header {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: none;
+    background-color: #FC466B;
+    position: fixed;
+    height: 4.286em!important;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.main {
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+    margin-top: 7.071em;
+    z-index: 50;
+}
+
+.mainInner {
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.mainInner div{
+    display:table-cell;
+    vertical-align: middle;
+    font-size: 3.429em;
+    font-weight: bold;
+    letter-spacing: 0.071em;
+}
+
+#sidebarMenu {
+    height: 5em;
+    position: absolute;
+    right: 0;
+    width:80%;
+    max-width:80%;
+    top: 0;
+    transform: translateX(+100%);
+    transition: transform 250ms ease-in-out;
+    background: linear-gradient(-90deg, #1e7724 0%, #000000 100%);
+    opacity: .80;
+    z-index: 21;
+}
+
+.sidebarMenuInner{
+    display: inline-block;
+    padding-left: 0;
+    padding-right: 2em;
+    padding-top: 0em;
+    padding-bottom: 2em;
+    /*border-top: 0.071em solid rgba(255, 255, 255, 0.10);*/
+    z-index: 22;
+}
+.sidebarMenuInner li{
+    display: inline-block;
+    list-style: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 0;
+    padding-right: 2em;
+    padding-top: .5em;
+    padding-bottom: 2em;
+    cursor: pointer;
+    /*border-bottom: 0.071em solid rgba(255, 255, 255, 0.10);*/
+    z-index: 23;
+}
+
+.sidebarMenuInner li span{
+    display: inline-block;
+    font-size: .5em;
+    color: rgba(255, 255, 255, 0.50);
+    z-index: 24;
+    opacity: .1;
+}
+
+.sidebarMenuInner li a{
+    font-size: 1.3em;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 25;
+}
+
+input[type="checkbox"]:checked ~ #sidebarMenu {
+    transform: translateX(0);
+}
+
+input[type=checkbox] {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    display: none;
+    z-index: 200;
+}
+
+.sidebarIconToggle {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: fixed;
+    z-index: 200;
+    top: 2em;
+    right: 2.143em;
+    height: 3.143em;
+    width:3.143em;
+}
+
+.spinner {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 0.286em;
+    width: 100%;
+    background-color: #fff;
+}
+
+.horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: right;
+    margin-top: .357em;
+}
+
+.diagonal.part-1 {
+    position: relative;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    float: right;
+    margin-top: .357em;
+    /*margin-top: 1.929em;*/
+
+}
+
+.diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: right;
+    margin-top:0.357em;
+    /*margin-top: 0.107em;*/
+}
+
+input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    opacity: 0;
+    z-index: 200;
+}
+
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(135deg);
+    transform-origin: 46% 166%;
+    /*margin-top: 1.929em;*/
+    z-index: 200;
+}
+
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(-135deg);
+    transform-origin: 49% 2%;
+    margin-top: 0.13em;
+    z-index: 200;
+}

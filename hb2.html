@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+   <style type="text/css">
+     .redText {color: red;}
+     .blueText {color: blue;}
+     .greenText {color: green;}
+     h3 {color: black;}
+ </style>
+
+
+ <script src="js/handlebars.js"></script>
+
+</head>
+<body>
+
+<div id="tutorialData"></div>
+
+
+<script id="tutorial-template" type="text/x-handlebars-template">
+
+<h3>Blender {{subject}} Information</h3>
+    <ol>
+      {{#each names}}
+        <li>{{name}}</li>
+      {{/each}}
+    </ol>
+</script>
+<script type="text/javascript">
+    var tutorialInfo = document.getElementById("tutorial-template").innerHTML;
+
+    var template = Handlebars.compile(tutorialInfo);
+
+    var tutorialData = template({
+      subject: "Tutorial",
+      names: [
+      {name: "Remove Strings Arm"},
+      {name: "Mirror Arm Bones"},
+      {name: "Name and Orient the New Bones"}
+            ]
+ });
+    document.getElementById("tutorialData").innerHTML += tutorialData;
+</script>
+
+</body>
+</html>

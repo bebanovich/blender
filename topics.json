@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "name": "Modeling",
+    "specs": {
+      "vid_id": "bUXSpZf1TTY",
+      "shortcuts": "1", "2"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "image": {
+      "small": "/images/icons/icon-96x96.png",
+      "large": "/images/icons/icon-512x512.png"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Rigging",
+    "specs": {
+      "vid_id": "Orv9rJvL8p8",
+      "shortcuts": "2"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "image": {
+    "small": "/images/icons/icon-96x96.png",
+    "large": "/images/icons/icon-512x512.png"
+    }
+  },
+    {
+    "id": 3,
+    "name": "Animation",
+    "specs": {
+      "vid_id": "i9H_Nohe3Mw",
+      "shortcuts": "1"
+   },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "image": {
+    "small": "/images/icons/icon-96x96.png",
+    "large": "/images/icons/icon-512x512.png"
+    }
+  },
+  {
+  "id": 4,
+  "name": "Simulation",
+  "specs": {
+    "vid_id": "i9H_Nohe3Mw",
+    "shortcuts": "1"
+ },
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+  "image": {
+  "small": "/images/icons/icon-96x96.png",
+  "large": "/images/icons/icon-512x512.png"
+  }
+},
+{
+"id": 5,
+"name": "Rendering",
+"specs": {
+  "vid_id": "i9H_Nohe3Mw",
+  "shortcuts": "1"
+},
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+"image": {
+"small": "/images/icons/icon-96x96.png",
+"large": "/images/icons/icon-512x512.png"
+}
+},
+{
+"id": 6,
+"name": "Compositing",
+"specs": {
+  "vid_id": "i9H_Nohe3Mw",
+  "shortcuts": "1"
+},
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+"image": {
+"small": "/images/icons/icon-96x96.png",
+"large": "/images/icons/icon-512x512.png"
+}
+},
+{
+"id": 7,
+"name": "Motion Tracking",
+"specs": {
+  "vid_id": "i9H_Nohe3Mw",
+  "shortcuts": "1"
+},
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+"image": {
+"small": "/images/icons/icon-96x96.png",
+"large": "/images/icons/icon-512x512.png"
+}
+},
+{
+"id": 8,
+"name": "Game Creation",
+"specs": {
+  "vid_id": "i9H_Nohe3Mw",
+  "shortcuts": "1"
+},
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+"image": {
+"small": "/images/icons/icon-96x96.png",
+"large": "/images/icons/icon-512x512.png"
+}
+},
+{
+"id": 9,
+"name": "Video Editing",
+"specs": {
+  "vid_id": "i9H_Nohe3Mw",
+  "shortcuts": "1"
+},
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+"image": {
+"small": "/images/icons/icon-96x96.png",
+"large": "/images/icons/icon-512x512.png"
+}
+},
+]

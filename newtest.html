@@ -1,12 +1,20 @@
 
 <head>
-   <script type="text/javascript" src="js/index.js"></script>
-   <script type="text/javascript" src="js/handles.js"></script>
+   <script src="js/handlebars.js"></script>
 </head>
+
 <body>
-<script id="handlebars-demo" type="text/x-handlebars-template">
-	<div id="div1>
-		The Video is called {{name}} and it's YouTube ID is {{vid_id}}.	
-	</div>
+
+<div id="vidData"></div>
+
+<script type="text/javascript">
+  var myInfo = "<p>The Video is called {{name}} and the YouTube ID is {{vid_id}}</p>";
+
+  var template = Handlebars.compile(myInfo);
+
+  var data = template({id: "1", name: "Remove Strings Arm", vid_id: "bUXSpZf1TTY"});
+
+  document.getElementById("vidData").innerHTML += data;
 </script>
+
 </body>
