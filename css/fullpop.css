@@ -39,7 +39,7 @@ input{
 	top: 0;
 	left: 0;
 	background: rgba(49,0,74,.9);
-	background-image: url("Simon.png");
+	background-image: url("images/Simon.png");
     	background-repeat:no-repeat;
 	z-index: 5000;
 }
