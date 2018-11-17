@@ -19,7 +19,8 @@
     function labnolThumb(id) {
         var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
             play = '<div class="play"></div>';
-        return thumb.replace("ID", id) + play;
+         var lemmeSee = thumb.replace("ID", id) + play;
+         console.log(lemmeSee);
     }
 
     function labnolIframe() {
