@@ -36,7 +36,6 @@ document.addEventListener("DOMContentLoaded",
             div.innerHTML = labnolThumb(v[n].dataset.id);
             div.onclick = labnolIframe;
             v[n].appendChild(div);
-            console.log(DOMContentLoaded);
         }
     });
 
@@ -86,6 +85,11 @@ function labnolIframe() {
 <!--</div>-->
 <div id='center' class="main center">
     <h1>Blender Tutorials</h1>
+    <h1>
+    <script type="text/javascript">
+        document.write(DOMContentLoaded)
+      </script>
+  </h1>    
     <div id="my-container" class="table-responsive"></div>
          <!--Handlebar templates start-->
   <script id="tutorial-template" type="text/x-handlebars-template">
