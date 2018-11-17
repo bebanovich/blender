@@ -35,7 +35,8 @@ document.addEventListener("DOMContentLoaded",
             div.setAttribute("data-id", v[n].dataset.id);
             div.innerHTML = labnolThumb(v[n].dataset.id);
             div.onclick = labnolIframe;
-            JSON.stringify(v[n].appendChild(div));
+            v[n].appendChild(div);
+            console.log(DOMContentLoaded);
         }
     });
 
