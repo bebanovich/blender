@@ -10,13 +10,12 @@
                 div.setAttribute("data-id", v[n].dataset.id);
                 div.innerHTML = labnolThumb(v[n].dataset.id);
                 div.onclick = labnolIframe;
-                // v[n].appendChild(div);
-                var myResult = v[n].appendChild(div);
+                v[n].appendChild(div);
             }
         });
 
     function labnolThumb(id) {
-        var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+        var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">';
             play = '<div class="play"></div>';
          return thumb.replace("ID", id) + play;
     }
@@ -28,5 +27,5 @@
         iframe.setAttribute("frameborder", "0");
         iframe.setAttribute("allowfullscreen", "1");
         this.parentNode.replaceChild(iframe, this);
-        console.log(innerHTML);
+
     }
