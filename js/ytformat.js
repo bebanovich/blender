@@ -12,7 +12,6 @@
                 div.onclick = labnolIframe;
                 // v[n].appendChild(div);
                 var myResult = v[n].appendChild(div);
-                console.log(myResult);
             }
         });
 
