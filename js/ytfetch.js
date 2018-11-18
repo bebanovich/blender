@@ -26,11 +26,11 @@ $(document).ready(function(){
 });
 Handlebars.registerHelper('tubify', function() {
 
-	var youtube = document.querySelectorAll( ".youtube" );
+	var youtube = document.querySelectorAll( ".youtube-player" );
 
-	for (var i = 0; i < youtube.length; i++) {
+	for (var i = 0; i < youtube-player.length; i++) {
 
-		var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg";
+		var source = "https://img.youtube.com/vi/"+ youtube-player[i].dataset.embed +"/sddefault.jpg";
 
 		var image = new Image();
 				image.src = source;

@@ -61,7 +61,12 @@
     {{#each tutorials}}
       <h2>{{this.name}}</h2>
         <div class="tube">
-					{{tubify}}<div class="youtube-player"><div data-id="{{this.vid_id}}">{{/tubify}}
+
+					<div class="youtube" data-embed="AqcjdkPMPJA">
+
+    <!-- (2) the "play" button -->
+    <div class="play-button"></div>
+					{{tubify}}<div class="youtube-player"><div data-embed="{{this.vid_id}}">{{/tubify}}
 						// <img src="https://i.ytimg.com/vi/{{this.vid_id}}/hqdefault.jpg">
 					  //     <div class="play"></div></div>
 				</div>
