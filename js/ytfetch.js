@@ -24,9 +24,25 @@ $(document).ready(function(){
 
     TUTORIAL_METHOD.loadTutorialData();
 });
-Handlebars.registerHelper('tubify', function() {
+Handlebars.registerHelper('thumbIt', function(youtube-player, image) {
+  youtube-player[ i ].appendChild( image );
+}( i ) );
 
-	var youtube = document.querySelectorAll( ".youtube-player" );
+Handlebars.registerHelper('frameIt', function(iframe) {
+
+  var iframe = document.createElement( "iframe" );
+
+      iframe.setAttribute( "frameborder", "0" );
+      iframe.setAttribute( "allowfullscreen", "" );
+      iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
+
+      this.innerHTML = "";
+      this.appendChild( iframe );
+} );
+
+Handlebars.registerHelper('linkListen', function(youtube-player, source, image) {
+
+	var youtube-player = document.querySelectorAll( ".youtube-player" );
 
 	for (var i = 0; i < youtube-player.length; i++) {
 
@@ -34,21 +50,9 @@ Handlebars.registerHelper('tubify', function() {
 
 		var image = new Image();
 				image.src = source;
-				image.addEventListener( "load", function() {
-					youtube[ i ].appendChild( image );
-				}( i ) );
+				image.addEventListener( "load", {{thumbIt}})
 
-				youtube[i].addEventListener( "click", function() {
-
-					var iframe = document.createElement( "iframe" );
-
-							iframe.setAttribute( "frameborder", "0" );
-							iframe.setAttribute( "allowfullscreen", "" );
-							iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
-
-							this.innerHTML = "";
-							this.appendChild( iframe );
-				} );
+				youtube-player[i].addEventListener( "click", {{frameIt}}
 	};
 
 } )();
