@@ -4,6 +4,7 @@
   height: 14.071em;
   background: transparent;
   position: relative;
+  left: 10em;
   z-index: 11;
   display: inline-block;
 }
