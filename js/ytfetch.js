@@ -39,7 +39,6 @@ Handlebars.registerHelper('frameIt', function(iframe) {
       this.innerHTML = "";
       this.appendChild( iframe );
 } );
-
 Handlebars.registerHelper('linkListen', function(youtube-player, source, image) {
 
 	var youtube-player = document.querySelectorAll( ".youtube-player" );
@@ -50,9 +49,21 @@ Handlebars.registerHelper('linkListen', function(youtube-player, source, image) 
 
 		var image = new Image();
 				image.src = source;
-				image.addEventListener( "load", {{thumbIt}})
+				image.addEventListener( "load", function() {
+					youtube-player[ i ].appendChild( image );
+				}( i ) );
 
-				youtube-player[i].addEventListener( "click", {{frameIt}}
+				youtube-player[i].addEventListener( "click", function() {
+
+					var iframe = document.createElement( "iframe" );
+
+							iframe.setAttribute( "frameborder", "0" );
+							iframe.setAttribute( "allowfullscreen", "" );
+							iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
+
+							this.innerHTML = "";
+							this.appendChild( iframe );
+				} );
 	};
 
 } )();
