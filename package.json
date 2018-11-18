@@ -1,0 +1,19 @@
+{
+  "name": "blender",
+  "version": "1.0.0",
+  "description": "Blender Tutorials Site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bebanovich.github.io/blender/"
+  },
+  "author": "T & D Productions",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-google": "^0.11.0"
+  }
+}

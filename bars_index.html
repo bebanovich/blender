@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="js/handlebars.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/fetch.js"></script>
+</head>
+<body>
+  <div id="my-container" class="table-responsive"></div>
+       <!--Handlebar templates start-->
+<script id="tutorial-template" type="text/x-handlebars-template">
+  {{#each tutorials}}
+    <h2>{{this.name}}</h2>
+      <div class="tube">
+        <div class="youtube-player" data-id={{this.vid_id}}></div>
+      </div>
+  {{/each}}
+</script>
+       <!--Handlebar templates end-->
+   </body>
+</html>
