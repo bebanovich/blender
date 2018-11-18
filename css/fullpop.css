@@ -1,6 +1,6 @@
 /*Sub Overlay*/
 .lower {
- 	width:10em;
+ 	width:12em;
 	margin:10% auto;
 	padding:1em;
 	background:white;
@@ -24,7 +24,7 @@ input{
 .lower label{
 	font-family: 'NotCourierSans';
 	text-transform:uppercase;
-	font-size:2em;
+	font-size:1em;
   	text-align:center;
 }
 
@@ -45,11 +45,11 @@ input{
 }
 
 .sublay label {
-	width: 58px;
-	height:58px;
+	width: 9em;
+	height:9empx;
 	position: absolute;
-	right: 20px;
-	top: 20px;
+	right: 1em;
+	top: 1empx;
 	z-index: 5001;
   	cursor:pointer;
 }
