@@ -24,8 +24,9 @@ $(document).ready(function(){
 
     TUTORIAL_METHOD.loadTutorialData();
 });
-Handlebars.registerHelper('thumbIt', function(youtube-player, image) {
-  youtube-player[ i ].appendChild( image );
+
+Handlebars.registerHelper('thumbIt', function(youtube, image) {
+  youtube[ i ].appendChild(image);
 }( i ) );
 
 Handlebars.registerHelper('frameIt', function(iframe) {
@@ -39,21 +40,21 @@ Handlebars.registerHelper('frameIt', function(iframe) {
       this.innerHTML = "";
       this.appendChild( iframe );
 } );
-Handlebars.registerHelper('tubify', function(youtube-player, source, image) {
+Handlebars.registerHelper('tubify', function(youtube, source, image) {
 
-	var youtube-player = document.querySelectorAll( ".youtube-player" );
+	var youtube = document.querySelectorAll( ".youtube" );
 
-	for (var i = 0; i < youtube-player.length; i++) {
+	for (var i = 0; i < youtube.length; i++) {
 
-		var source = "https://img.youtube.com/vi/"+ youtube-player[i].dataset.embed +"/sddefault.jpg";
+		var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg";
 
 		var image = new Image();
 				image.src = source;
 				image.addEventListener( "load", function() {
-					youtube-player[ i ].appendChild( image );
+					youtube[ i ].appendChild( image );
 				}( i ) );
 
-				youtube-player[i].addEventListener( "click", function() {
+				youtube[i].addEventListener( "click", function() {
 
 					var iframe = document.createElement( "iframe" );
 
