@@ -39,7 +39,7 @@ Handlebars.registerHelper('frameIt', function(iframe) {
       this.innerHTML = "";
       this.appendChild( iframe );
 } );
-Handlebars.registerHelper('linkListen', function(youtube-player, source, image) {
+Handlebars.registerHelper('tubify', function(youtube-player, source, image) {
 
 	var youtube-player = document.querySelectorAll( ".youtube-player" );
 
