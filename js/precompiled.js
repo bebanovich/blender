@@ -1,13 +1,34 @@
-loadTutorialData : function(){
-
-    $.ajax({
-        url:"json/tutorials.json",
-        method:'get',
-        success:this.handlerData
-
-    })
-}
-};
+// 
+// var TUTORIAL_METHOD ={
+//
+//         handlerData:function(resJSON){
+//
+//             var templateSource   = $("#tutorial-template").html();
+//
+//             var template = Handlebars.templates['tutorial-template'];
+//            //      template = Handlebars.compile(templateSource),
+//            //
+//            //
+//            //      tutorialHTML = template(resJSON);
+//            //
+//            // $('#my-container').html(tutorialHTML);
+//
+//   },
+//     loadTutorialData : function(){
+//
+//         $.ajax({
+//             url:"json/tutorials.json",
+//             method:'get',
+//             success:this.handlerData
+//
+//         })
+//     }
+// };
+//
+// $(document).ready(function(){
+//
+//     TUTORIAL_METHOD.loadTutorialData();
+// });
 
 (function() {
   var template = Handlebars.template, templates = Handlebars.templates = Handlebars.templates || {};
