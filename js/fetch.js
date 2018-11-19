@@ -1,30 +1,31 @@
+//use precompiled template
+var template = Handlebars.templates['templates/tutorial-template.handlebars'];
 
-var TUTORIAL_METHOD ={
-
-        handlerData:function(resJSON){
-
-            var templateSource   = $("#tutorial-template").html(),
-
-                template = Handlebars.compile(templateSource),
-
-
-                tutorialHTML = template(resJSON);
-
-           $('#my-container').html(tutorialHTML);
-
-  },
-    loadTutorialData : function(){
-
-        $.ajax({
-            url:"json/tutorials.json",
-            method:'get',
-            success:this.handlerData
-
-        })
+//ajax call to get data
+var jsonData =(function(){
+  var json = null;
+  $ajax({
+    'async': false,
+    'global': false,
+    'type' : "GET",
+    'url': "json/tutorials.json",
+    'dataType': "json",
+    'success': function (data) {
+        json = data;
     }
-};
+  });
 
-$(document).ready(function(){
+  //Handlebar helper to modify data or display conditionally.
+  // Handlebars.registerHelper("shortcuts")
+  //         tutorialHTML = template(resJSON);
+  //
+  //          $('#my-container').html(tutorialHTML);
+  //
+  // },
+//apply data to template
+var result = template(jsonData);
 
-    TUTORIAL_METHOD.loadTutorialData();
+//replace div html with template data
+$('#tutorialContent').html(result);
+
 });

@@ -1,4 +1,4 @@
-// 
+//
 // var TUTORIAL_METHOD ={
 //
 //         handlerData:function(resJSON){
@@ -29,6 +29,26 @@
 //
 //     TUTORIAL_METHOD.loadTutorialData();
 // });
+
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+
+
 
 (function() {
   var template = Handlebars.template, templates = Handlebars.templates = Handlebars.templates || {};
