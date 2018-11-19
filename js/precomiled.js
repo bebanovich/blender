@@ -1,3 +1,14 @@
+loadTutorialData : function(){
+
+    $.ajax({
+        url:"json/tutorials.json",
+        method:'get',
+        success:this.handlerData
+
+    })
+}
+};
+
 (function() {
   var template = Handlebars.template, templates = Handlebars.templates = Handlebars.templates || {};
 templates['tutorial-template'] = template({"1":function(container,depth0,helpers,partials,data) {
