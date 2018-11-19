@@ -1,3 +1,4 @@
+
 var TUTORIAL_METHOD ={
 
         handlerData:function(resJSON){

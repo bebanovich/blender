@@ -1,8 +1,7 @@
 var TUTORIAL_METHOD ={
 
         handlerData:function(resJSON){
-
-            var templateSource   = $("#tutorial-template").html(),
+          var templateSource   = $("#tutorial-template").html(),
 
                 template = Handlebars.compile(templateSource),
 
@@ -12,7 +11,7 @@ var TUTORIAL_METHOD ={
 
   },
 
-  
+
     loadTutorialData : function(){
 
         $.ajax({
@@ -27,4 +26,12 @@ var TUTORIAL_METHOD ={
 $(document).ready(function(){
 
     TUTORIAL_METHOD.loadTutorialData();
+});
+var myName;
+var myTemplate = $('#myTempId').html();
+var compiled = Handlebars.compile(myTemplate);
+
+$('#buttonId').click(function(){
+  myName = $('#nameId').val();
+  $('#containerId').html(compiled({name:myName}));
 });

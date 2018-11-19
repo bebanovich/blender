@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "last_name": "David",
+    "first_name": "Ramos-Beban",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "image": "/images/icons/icon-96x96.png"
+
+  },
+  {
+    "id": 2,
+    "last_name": "Tyler",
+    "first_name": "Gettner",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique ipsum in efficitur pharetra. Maecenas luctus ante in neque maximus, sed viverra sem posuere. Vestibulum lectus nisi, laoreet vel suscipit nec, feugiat at odio. Etiam eget tellus arcu.",
+    "image": "/images/icons/icon-96x96.png"
+
+  },
+]
