@@ -1,0 +1,99 @@
+<head>
+<link rel="manifest" href="manifest.json">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="tystyle3.css">
+<link rel="stylesheet" type="text/css" href="css/animations.css">
+<link rel="stylesheet" type="text/css" href="css/nav.css">
+<link rel="stylesheet" type="text/css" href="css/ytstyle.css">
+<link rel="stylesheet" type="text/css" href="css/fullpop.css">
+<link rel="stylesheet" type="text/css" href="css/infopop.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Life+Savers" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Butcherman" rel="stylesheet">
+<!-- <script type="text/javascript" src="js/ytformat.js"></script> -->
+<script src="js/handlebars.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/ytfetch.js"></script>
+
+
+
+</head>
+<body>
+<!-- Top Navigation Menu -->
+<!--<div class="container">-->
+<div class="logo">
+	<a href="#home"><img border="0" alt="T&D Productions" src="images/logo_med.png"></a>
+</div>
+<div class="topnav">
+  <div class="knock">
+    <div class="knockout">T &amp; D PRODUCTIONS</div>
+  </div>
+	<input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+ 	<label for="openSidebarMenu" class="sidebarIconToggle">
+    		<div class="spinner diagonal part-1"></div>
+    		<div class="spinner horizontal"></div>
+    		<div class="spinner diagonal part-2"></div>
+    		<div class="spinner horizontal"></div>
+  	</label>
+  	<div id="sidebarMenu">
+    		<ul class="sidebarMenuInner">
+      			<li><span>Blender Tutorials</span></li>
+      			<li><a href="" target="_blank">Topic Cheatlist</a></li>
+      			<li><a href="https://www.youtube.com/channel/UCouKWsZeADxOrvPX_6xO3dg" target="_blank">YouTube Channel</a></li>
+    		</ul>
+  	</div>
+</div>
+ <div class="pop"></div>
+ <div class="eyes"></div>
+<!--</div>-->
+<div id="center" class="main center">
+    <h1>Blender Tutorials</h1>
+    <div id="my-container" class="table-responsive"></div>
+         <!--Handlebar templates start-->
+  <script id="tutorial-template" type="text/x-handlebars-template">
+    {{#each tutorials}}
+      <h2>{{this.name}}</h2>
+        <div class="tube">
+
+					<div class="youtube" data-embed="AqcjdkPMPJA">
+
+    <!-- (2) the "play" button -->
+    <div class="play-button"></div>
+					{{tubify}}<div class="youtube"><div data-embed="{{this.vid_id}}">{{/tubify}}
+						// <img src="https://i.ytimg.com/vi/{{this.vid_id}}/hqdefault.jpg">
+					  //     <div class="play"></div></div>
+				</div>
+          <div class="info">
+           < <input type="checkbox" id="op"></input>
+							<div class="lower">
+									<label for="op">click the text</label>
+							</div>
+							<div class="sublay sublay-hugeinc">
+								<label for="op"></label>
+									<nav>
+										<ul>
+											<li><a href="#">Home</a></li>
+											<li><a href="#">About</a></li>
+											<li><a href="#">Work</a></li>
+											<li><a href="#">Clients</a></li>
+											<li><a href="#">Contact</a></li>
+										</ul>
+									</nav>
+							</div>
+           </div>
+          </div>
+    {{/each}}
+  </script>
+         <!--Handlebar templates end-->
+
+    <div class="mainInner">
+</div>
+
+</body>
