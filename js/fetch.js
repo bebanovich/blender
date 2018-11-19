@@ -5,7 +5,8 @@ var TUTORIAL_METHOD ={
 
             var templateSource   = $("#tutorial-template").html(),
 
-                template = Handlebars.compile(templateSource),
+                // template = Handlebars.compile(templateSource),
+  
 
                 tutorialHTML = template(resJSON);
 
