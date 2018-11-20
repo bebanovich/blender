@@ -1,3 +1,4 @@
+<script>
 var Handlebars = require('handlebars/runtime');
 var hbtemplate = require('js/test-template.js');
 
@@ -8,8 +9,8 @@ var template = Handlebars.templates['test-template'];
 
 //use precompiled template
 var template = Handlebars.templates['templates/test-template.handlebars'];
-
-//ajax call to get data
+</script>
+// ajax call to get data
 var jsonData =(function(){
   var json = null;
   $ajax({
