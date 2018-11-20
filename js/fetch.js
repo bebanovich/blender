@@ -1,5 +1,5 @@
 //use precompiled template
-var template = Handlebars.templates['test-template.handlebars'];
+var template = Handlebars.templates['tutorial-template.handlebars'];
 // ajax call to get data
 var jsonData =(function(){
   var json = null;
