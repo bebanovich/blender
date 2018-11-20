@@ -1,4 +1,3 @@
-$(document).ready(function(){
   var template = Handlebars.templates['tutorial-template.handlebars'];
   // ajax call to get data
   var jsonData =(function(){
@@ -28,5 +27,4 @@ $(document).ready(function(){
   $('#tutorialContent').html(result);
 
   });
-    });
 //use precompiled template
