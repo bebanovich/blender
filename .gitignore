@@ -38,4 +38,4 @@ Thumbs.db
 
 # Folder #
 node_modules/eslint*
-node_modules/bin/eslint*
+node_modules/.bin/eslint*
