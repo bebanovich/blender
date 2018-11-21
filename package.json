@@ -15,7 +15,10 @@
   "devDependencies": {
     "eslint": "^5.9.0",
     "eslint-config-google": "^0.11.0",
-    "eslint-plugin-disable": "^1.0.3"
+    "eslint-plugin-disable": "^1.0.3",
+    "gulp": "^4.0.0",
+    "gulp-jshint": "^2.1.0",
+    "jshint": "^2.9.6"
   },
   "dependencies": {
     "grunt-contrib-handlebars": "^1.0.0",
