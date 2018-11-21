@@ -4,8 +4,8 @@
   height: 14.071em;
   background: transparent;
   position: relative;
-  left: 0;
-  top: 0em;
+  left: 1em;
+  top: -1em;
   z-index: 11;
   padding: 0;
   margin: 0;
@@ -21,7 +21,7 @@
   padding: 0;
   margin: 0;
   background: transparent;
-  z-index: 50;
+  z-index: 100;
   display: inline-block;
 }
 

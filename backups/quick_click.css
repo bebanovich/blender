@@ -1,38 +1,37 @@
 
 .youtube {
-  width: 100%;
-height: 100%;
-background: transparent;
-position: relative;
-/* left: 1em; */
-/* top: -1em; */
-z-index: 11;
-padding: 0;
-margin: 0;
-display: inline-block;
+	width: 25em;
+  height: 14.071em;
+  background: transparent;
+  position: relative;
+  left: 1em;
+  top: -1em;
+  z-index: 11;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
 }
 .video-youtube-lazy{
-  position: relative;
-  padding-bottom: 70%;
-  height: 0;
-  overflow: visible;
-  margin: 0;
+position:relative;
+padding-bottom:56.25%;
+height:0;
+overflow: hidden;
+margin:0;
 }
 .video-youtube-lazy:before{
-content:"";
+content:"\f16a";
+font-family:FontAwesome;
+font-size:600%;
 position:absolute;
-top:47%;
-left:42%;
+top:50%;
+left:50%;
+margin:-32px 0 0 -32px;
 cursor:pointer;
-opacity:.6;
+opacity:.7;
 transition: all 0.2s ease-out;
-border-style: solid;
-border-width: 1.3em 0 1.3em 2.4em;
-border-color: transparent transparent transparent #fff;
 
 }
 .video-youtube-lazy:hover:before{
-border-color: transparent transparent transparent #77ff27!important;
 color:red!important;
 opacity:1;
 }
