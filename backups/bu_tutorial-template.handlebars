@@ -1,0 +1,22 @@
+{{#each tutorials}}
+<h2>{{this.name}}</h2>
+  <div class="tube"><div class="youtube-player" data-id="{{this.vid_id}}"></div></div>
+        <div class="info">
+         <input type="checkbox" id="op"></input>
+            <div class="lower">
+                <label for="op">Topics Covered</label>
+            </div>
+            <div class="sublay sublay-hugeinc">
+              <label for="op"></label>
+                <nav>
+                  <ul>
+                        {{shortcuts}}
+
+                  </ul>
+                </nav>
+            </div>
+         </div>
+{{/each}}
+<div class="youtube"><div data-embed="{{this.vid_id}}">{{/tubify}}
+   <img src="https://i.ytimg.com/vi/{{this.vid_id}}/hqdefault.jpg">
+  //     <div class="play"></div></div>

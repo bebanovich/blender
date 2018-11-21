@@ -34,7 +34,7 @@
     position: fixed;
     Right: 0;
     bottom: 0%;
-    z-index: -2;
+    z-index: 99;
     background-image: url("../images/sub_med_eyes.png");
     background-repeat:no-repeat;
 }

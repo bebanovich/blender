@@ -1,7 +1,8 @@
-  var template = Handlebars.templates['tutorial-template'];
+
   // ajax call to get data
   var jsonData =(function(){
-    var json = null;
+    var json = null,
+        template = Handlebars.templates['tutorial-template'];
     $ajax({
       'async': false,
       'global': false,

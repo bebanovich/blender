@@ -28,4 +28,5 @@ h2 {
     font-family: 'Amatic SC', cursive;
     color: #ADD8E6;
     text-align: left;
+    z-index: -11;
 }

@@ -1,3 +1,35 @@
+.shebang {
+  position: fixed;
+  background-color: black;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* transform: translateX(+50%); */
+  z-index: -1000;
+  opacity: .9;
+}
+
+.curtain {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 14em;
+  width: 100%;
+  background-color: black;
+  z-index: 99;
+
+}
+
+.headline {
+  position: fixed;
+  top: 6em;
+  left: 10%;
+  right: 10%;
+  z-index: 5000;
+
+}
+
 /* <div> style for T & D Productions logo */
 .knock {
   height: 5em;
@@ -5,10 +37,10 @@
   background: transparent;
   max-width: 30%;
   position: fixed;
-  top: .0.714em;
+  top: 1em;
   left: 6em;
   padding-bottom: .0.714em;
-  z-index: 30;
+  z-index: 5000;
 }
 
 /* Style for T & D Productions Logo */
@@ -22,7 +54,7 @@
     text-transform: uppercase;
     opacity: .3;
     text-shadow: #2c2c2c 3px 3px 5px;
-    z-index: 50;
+    z-index: 5000;
 }
 /* Position foil Epitome logo */
 .logo {
@@ -42,8 +74,8 @@
   /*background: linear-gradient(-90deg, #1e7724 0%, #000000 100%);*/
   /*background: rgba(255,255,255,0.1);*/
   position: fixed;
-  top: 0.714em;
-  z-index: 10;
+  top: 0em;
+  z-index: 100;
 }
 
 .topnav a {
@@ -83,8 +115,8 @@
     margin: 0 auto;
     display: block;
     height: 100%;
-    margin-top: 7.071em;
-    z-index: 50;
+    margin-top: 18em;
+    z-index: -1;
 }
 
 .mainInner {
@@ -106,13 +138,13 @@
     height: 5em;
     position: absolute;
     right: 0;
-    width:80%;
-    max-width:80%;
+    width:70%;
+    max-width:70%;
     top: 0;
     transform: translateX(+100%);
     transition: transform 250ms ease-in-out;
     background: linear-gradient(-90deg, #1e7724 0%, #000000 100%);
-    opacity: .80;
+    opacity: 1;
     z-index: 21;
 }
 
@@ -120,7 +152,7 @@
     display: inline-block;
     padding-left: 0;
     padding-right: 2em;
-    padding-top: 0em;
+    padding-top: .6em;
     padding-bottom: 2em;
     /*border-top: 0.071em solid rgba(255, 255, 255, 0.10);*/
     z-index: 22;
@@ -131,10 +163,10 @@
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
-    padding-left: 0;
-    padding-right: 2em;
+    padding-left: 1em;
+    padding-right: 1.5em;
     padding-top: .5em;
-    padding-bottom: 2em;
+    padding-bottom: 1.5em;
     cursor: pointer;
     /*border-bottom: 0.071em solid rgba(255, 255, 255, 0.10);*/
     z-index: 23;
@@ -142,14 +174,14 @@
 
 .sidebarMenuInner li span{
     display: inline-block;
-    font-size: .5em;
+    font-size: .45em;
     color: rgba(255, 255, 255, 0.50);
     z-index: 24;
     opacity: .1;
 }
 
 .sidebarMenuInner li a{
-    font-size: 1.3em;
+    font-size: 1.1em;
     display: inline-block;
     color: #fff;
     text-transform: uppercase;
@@ -176,7 +208,7 @@ input[type=checkbox] {
     cursor: pointer;
     position: fixed;
     z-index: 200;
-    top: 2em;
+    top: 1.3em;
     right: 2.143em;
     height: 3.143em;
     width:3.143em;
@@ -229,8 +261,8 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
     transition: all 0.3s;
     box-sizing: border-box;
     transform: rotate(135deg);
-    transform-origin: 46% 166%;
-    /*margin-top: 1.929em;*/
+    transform-origin: 45% 167%;
+    margin-top: .35em;
     z-index: 200;
 }
 
@@ -238,7 +270,7 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     transition: all 0.3s;
     box-sizing: border-box;
     transform: rotate(-135deg);
-    transform-origin: 49% 2%;
-    margin-top: 0.13em;
+    transform-origin: 48% 2%;
+    margin-top: 0.09em;
     z-index: 200;
 }
