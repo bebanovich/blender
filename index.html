@@ -94,6 +94,14 @@ function off() {
 		//]]>
 		</script>
 		</b:if>
-		<script src="js/overlay.js">
+		<script>
+			function on() {
+		    document.getElementById("shebang").style.display = "block";
+		}
+
+		function off() {
+		    document.getElementById("shebang").style.display = "none";
+		}
+		</script>
 		<link rel="manifest" href="manifest.json">
 </body>
