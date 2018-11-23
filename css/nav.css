@@ -1,13 +1,27 @@
-.shebang {
-  position: fixed;
-  background-color: black;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  /* transform: translateX(+50%); */
-  z-index: -1000;
-  opacity: .9;
+#shebang {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(49,0,74,.8);
+  	background-image: url("../images/Simon.png");
+    background-repeat:no-repeat;
+    z-index: 11000;
+    cursor: pointer;
+}
+
+#shetext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
 }
 
 .curtain {
@@ -16,7 +30,7 @@
   right: 0;
   height: 14em;
   width: 100%;
-  background-color: black;
+  background: linear-gradient(180deg, #124816 0%, #000000 40%);
   z-index: 101;
 
 }
@@ -143,8 +157,8 @@
     top: 0;
     transform: translateX(+100%);
     transition: transform 250ms ease-in-out;
-    background: linear-gradient(-90deg, #1e7724 0%, #000000 100%);
-    opacity: 1;
+    background: transparent;
+    opacity: .8;
     z-index: 21;
 }
 
@@ -229,6 +243,7 @@ input[type=checkbox] {
     position: relative;
     float: right;
     margin-top: .357em;
+    opacity: .5;
 }
 
 .diagonal.part-1 {
@@ -237,6 +252,7 @@ input[type=checkbox] {
     box-sizing: border-box;
     float: right;
     margin-top: .357em;
+    opacity: .5;
     /*margin-top: 1.929em;*/
 
 }
@@ -247,6 +263,7 @@ input[type=checkbox] {
     position: relative;
     float: right;
     margin-top:0.357em;
+    opacity: .5;
     /*margin-top: 0.107em;*/
 }
 

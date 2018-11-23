@@ -70,7 +70,7 @@
   background: #1e7724;
 }
 
-.overlay {
+/* .overlay {
     position: fixed;
     width: 35em;
     height:50em;
@@ -121,7 +121,7 @@
 .popup .content {
   max-height: 100%;
   overflow: auto;
-}
+} */
 
 /*@media screen and (max-width: 700px){*/
 /*  .box{*/

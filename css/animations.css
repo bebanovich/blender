@@ -12,22 +12,35 @@
 	100% { opacity: 1;-moz-transform: scale(1); }
 }
 @keyframes eye-in {
-	0% { opacity: 0;transform: scale(0); }
-	100% { opacity: .3;transform: scale(1); }
+	0% { opacity: 0;transform: scale(0);}
+	100% { opacity: .3;transform: scale(1);}
 }
 @-webkit-keyframes eye-in {
-	0% { opacity: 0;-webkit-transform: scale(0); }
-	100% { opacity: .3;-webkit-transform: scale(1); }
+	0% { opacity: 0;-webkit-transform: scale(0);}
+	100% { opacity: .3;-webkit-transform: scale(1);}
 }
 @-moz-keyframes eye-in {
-	0% { opacity: 0;-moz-transform: scale(0); }
-	100% { opacity: .3;-moz-transform: scale(1); }
+	0% { opacity: 0;-moz-transform: scale(0);}
+	100% { opacity: .3;-moz-transform: scale(1);}
 }
+@keyframes blue-eye-in {
+	0% { opacity: 0;transform: scale(0); transform: rotate(0);}
+	100% { opacity: .6;transform: scale(1); transform: rotate(6deg);}
+}
+@-webkit-keyframes blue-eye-in {
+	0% { opacity: 0;-webkit-transform: scale(0); webkit-transform: rotate(0);}
+	100% { opacity: .6;-webkit-transform: scale(1); webkit-transform: rotate(6deg);}
+}
+@-moz-keyframes blue-eye-in {
+	0% { opacity: 0;-moz-transform: scale(0); -moz-transform: rotate(0);}
+	100% { opacity: .6;-moz-transform: scale(1); -moz-transform: rotate(6deg);}
+}
+
 /* Animates the main background fade-in */
 .pop {
-    -webkit-animation:pop-in 5s;
-    -moz-animation:pop-in 5s;
-    -ms-animation:pop-in 5s;
+    -webkit-animation:pop-in 4s;
+    -moz-animation:pop-in 4s;
+    -ms-animation:pop-in 4s;
     animation-timing-function: ease-in;
     width: 31.250em;
     height: 33.875em;
@@ -42,17 +55,40 @@
 
 /* Animates Epitome Bella's eyes from background */
 .eyes {
-    -webkit-animation:eye-in 7s;
-    -moz-animation:eye-in 7s;
-    -ms-animation:eye-in 7s;
+    -webkit-animation:eye-in 4.5s;
+    -moz-animation:eye-in 4.5s;
+    -ms-animation:eye-in 4.5s;
     animation-timing-function: ease-in;
-    width: 5.357em;
-    height: 1.357em;
+    width: 5.714em;
+    height: 1.786em;
     position: fixed;
-    right: 36em;
-    top: 36em;
+    right: 34em;
+    bottom: 15em;
     z-index: 2;
     background-image: url("../images/purple_eyes_sm.png");
+		max-width:100%;
+		max-height:100%;
     background-repeat:no-repeat;
-    opacity: .4;
+    opacity: .3;
+}
+
+.blueeyes {
+    -webkit-animation:blue-eye-in 7s;
+    -moz-animation:blue-eye-in 7s;
+    -ms-animation:blue-eye-in 7s;
+		-ms-transform: rotate(6deg); /* IE 9 */
+    -webkit-transform: rotate(6deg); /* Safari */
+    transform: rotate(6deg); /* Standard syntax */
+    animation-timing-function: ease-in;
+    width: 4.286em;
+    height: 1.071em;
+    position: fixed;
+    right: 22em;
+    top: 24em;
+    z-index: 2;
+    background-image: url("../images/blue_eyes.png");
+		max-width:100%;
+		max-height:100%;
+    background-repeat:no-repeat;
+    opacity: .6;
 }

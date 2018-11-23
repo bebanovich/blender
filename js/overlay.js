@@ -1,7 +1,7 @@
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
+function on() {
+    document.getElementById("shebang").style.display = "block";
 }
 
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
+function off() {
+    document.getElementById("shebang").style.display = "none";
 }

@@ -8,12 +8,14 @@
     </div>
   </div>
         <div class="info">
-         {{!-- <input type="checkbox" id="op"></input> --}}
+         <input type="checkbox" id="op"></input>
             <div class="lower">
-                <label onclick="on()"><img src="images/icons/point.png" width="12px" height="12px" vertical-align="center"></img>&nbsp;&nbsp;&nbsp;Tutorial Topics</label>
+                <label for="op"><img src="images/icons/point.png" width="12px" height="12px" vertical-align="center"></img>&nbsp;&nbsp;&nbsp;Tutorial Topics</label>
             </div>
-
-            {{!-- <div class="sublay sublay-hugeinc">
+            <div style="padding:20px">
+              <button onclick="on()">Turn on overlay effect</button>
+            </div>
+            <div class="sublay sublay-hugeinc">
 
               <label for="op"></label>
                 <nav>
@@ -21,6 +23,6 @@
                         {{shortcuts}}
                   </ul>
                 </nav>
-            </div> --}}
+            </div>
           </div>
 {{/each}}
