@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -5,25 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Blender Tutorials</title>
 
-	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="tystyle3.css">
-<link rel="stylesheet" type="text/css" href="css/quick_click.css">
-<link rel="stylesheet" type="text/css" href="css/animations.css">
-<link rel="stylesheet" type="text/css" href="css/nav.css">
-<link rel="stylesheet" type="text/css" href="css/ytstyle.css">
-<link rel="stylesheet" type="text/css" href="css/fullpop.css">
-<link rel="stylesheet" type="text/css" href="css/infopop.css">
-<!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> -->
-<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-<!-- <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Life+Savers" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet"> -->
-<link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
-<!-- <link href="https://fonts.googleapis.com/css?family=Butcherman" rel="stylesheet"> -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 <!--Import Google Icon Font-->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -33,87 +16,199 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-
 <!-- for precomiled -->
+<style>
 
+
+header {
+  background: url(images/big_eyes.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 1000px;
+}
+@media screen and (max-width: 670px){
+  header{
+    min-height: 500px;
+  }
+}
+nav {
+  padding-left: 1em;
+  opacity: .8;
+}
+nav .container{
+    padding-left: 1em;
+    padding-right: 3em;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+  }
+ .sidenav {
+    opacity: .8;
+  }
+</style>
 
 </head>
 <body>
-
+<header>
 <!-- Top Navigation Menu -->
-	<!--<div class="container">-->
-<div class="curtain"></div>
-<!-- <script>
-	function on() {
-    document.getElementById("shebang").style.display = "block";
-}
+  
+<nav class="nav-wrapper green darken-4">
+    <img class="halfway-fab" src="images/logo_med.png" width="50px" height="109px" left="1.5em" alt="TD Productions">
+  <div class="container">
 
-function off() {
-    document.getElementById("shebang").style.display = "none";
-}
-</script> -->
-	<div class="logo">
-		<a href="#home"><img border="0" alt="T&D Productions" src="images/logo_med.png"></a>
-	</div>
-	<div class="knock">
-		<div class="knockout">T &amp; D PRODUCTIONS</div>
-	</div>
-	<div class="topnav">
+      <a href="#" class="brand-logo">TD Productions</a>
+     <a href="#" class="sidenav-trigger" data-target="mobile-links">
+      <i class="material-icons hide-on-med-and-up">menu</i>  
+    </a>
+    <ul class="right hide-on-med-and-down" display="inline-block">
+      <li><a href="#">Home</a></li>  
+      <li><a href="#">YouTube</a></li>  
+      <li><a href="#">About</a></li>  
+      <li><a href="#">Contact</a></li>  
+    </ul>
+  </div>
+</nav>
+<ul class="sidenav light-green accent-1" id="mobile-links">
+  <li><a href="#">Home</a></li>  
+  <li><a href="https://www.youtube.com/channel/UCouKWsZeADxOrvPX_6xO3dg">YouTube</a></li>  
+  <li><a href="#">About</a></li>  
+  <li><a href="#">Contact</a></li>  
+</ul>
+</header>
 
-		<input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
-	 	<label for="openSidebarMenu" class="sidebarIconToggle">
-	    		<div class="spinner diagonal part-1"></div>
-	    		<div class="spinner horizontal"></div>
-	    		<div class="spinner diagonal part-2"></div>
-	    		<div class="spinner horizontal"></div>
-	  	</label>
-	  	<div id="sidebarMenu">
-	    		<ul class="sidebarMenuInner">
-	      			<li><span></span></li>
-	      			<li><a href="" target="_blank">Topic Cheatlist</a></li>
-	      			<li><a href="https://www.youtube.com/channel/UCouKWsZeADxOrvPX_6xO3dg" target="_blank">YouTube Channel</a></li>
-	    		</ul>
-	  	</div>
-	</div>
-	 <div class="pop"></div>
-	 <div class="eyes"></div>
-	 <div class="blueeyes"></div>
-	<!--</div>-->
-		 <div class="headline"><h1>Blender Tutorials</h1></div>
-
+    
 	<div id="center" class="main center">
-	  <div id="tutorialContent"></div>
+    <h2 class="grey-text darken-3">Latest Tutorials</h2>
+	  <div id="tutorialContent">
 
 
-		</div>
-		<div id="shebang" onclick="off()">
-			<div id="shetext">{{shortcuts}}</div>
-		</div>
-		<script src="js/handlebars.runtime.js"></script>
+      <!-- first vid  -->
+      <div class="container">
+        <div class="row">
+      <div class="col s12 l6">
+        <div class="card z-depth-3">
+        <div class="video-container">
+          <iframe src="//www.youtube.com/embed/bUXSpZf1TTY?rel=0" frameborder="0" allowfullscreen></iframe>
+          
+          </div>
+          <a href="#" class="btn-floating btn-small orange lighten-2 right"><i class="material-icons">playlist_add</i></a>
+
+
+
+        <div class="card-content">
+          <p class="grey-text left">Rigging</p><a href="#" class="btn-tiny grey-text lighten-2 left">
+              <i class="material-icons">view_list</i></a><br><br>
+          <span class="card-title">Remove Strings Arm</span>
+
+          <p>Remove strings arm full description here</p>
+        </div>
+        <div class="card-action">
+          <a href="#">View Details</a>
+          <a href="#bUXSpZf1TTY" class="modal-trigger">Cheat List</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#" class="btn-floating btn-small orange lighten-2"><i class="material-icons">share</i></a>
+        </div>
+      </div>
+    </div>
+    
+
+    
+        <div class="modal" id="bUXSpZf1TTY">
+            <p>cheatsheet shortcuts for removing strings arm</p>
+        </div>
+
+
+<!-- second vid -->
+
+      <div class="col s12 l6">
+        <div class="card z-depth-3">
+            <div class="video-container">
+                <iframe src="//www.youtube.com/embed/Orv9rJvL8p8?rel=0" frameborder="0" allowfullscreen></iframe>
+                
+                </div>
+                <a href="#" class="btn-floating btn-small orange lighten-2 right"><i class="material-icons">playlist_add</i></a>
+
+
+
+        <div class="card-content">
+            <p class="grey-text left">Rigging</p><a href="#" class="btn-tiny grey-text lighten-2 left">
+            <i class="material-icons">view_list</i>
+            </a><br><br>
+          <span class="card-title">Mirror Arm Bones</span>
+          <p>Mirroring Arm Bones full description here</p>
+        </div>
+        <div class="card-action">
+          <a href="#">View Details</a>
+          <a href="#Orv9rJvL8p8" class="modal-trigger">Cheat List</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#" class="btn-floating btn-small orange lighten-2"><i class="material-icons">share</i></a>&nbsp;&nbsp;
+        </div>
+      </div>
+    </div>
+    
+    
+        <div class="modal" id="Orv9rJvL8p8">
+            <p>cheatsheet shortcuts for mirroring the arm bones here</p>
+        </div>
+      </div>
+
+
+<!-- third vid -->
+    
+    <div class="row">
+      <div class="col s12 l6">
+        <div class="card z-depth-3">
+            <div class="video-container">
+                <iframe src="//www.youtube.com/embed/i9H_Nohe3Mw?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <a href="#" class="btn-floating btn-small orange lighten-2 right"><i class="material-icons">playlist_add</i></a>
+ 
+
+
+
+
+        <div class="card-content">
+            <p class="grey-text left">Rigging</p><a href="#" class="btn-tiny grey-text lighten-2 left">
+                <i class="material-icons">view_list</i></a><br><br>
+          <span class="card-title">Name and Orient the New Bones</span>
+          <p>Naming and orienting the new bones full description here</p>
+        </div>
+        <div class="card-action">
+          <a href="#">View Details</a>
+          <a href="#i9H_Nohe3Mw" class="modal-trigger">Cheat List</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#" class="btn-floating btn-small orange lighten-2"><i class="material-icons">share</i></a>
+
+        </div>
+      </div>
+    </div>
+    
+    </div>
+    
+        <div class="modal" id="i9H_Nohe3Mw">
+            <p>cheatsheet shortcuts for naming and orienting bones here</p>
+        </div>
+
+      </div>
+        
+    </div>
+
+
+  
+
+		<!-- <script src="js/handlebars.runtime.js"></script> -->
 		<!-- <script src="js/handlebars.js"></script> -->
-		<script src="js/tutorial-template.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-		<script src="js/pre_fetch.js"></script>
-		<b:if cond='data:blog.pageType in {&quot;static_page&quot;,&quot;item&quot;}'>
-		<script>
-		//<![CDATA[
-		function videoPlay(anchor){
-		anchor.innerHTML = anchor.innerHTML.replace('<!--','').replace('-->','');
-		anchor.onclick= null;
-		return false;
-		};
-		//]]>
-		</script>
-		</b:if>
-		<script>
-			function on() {
-		    document.getElementById("shebang").style.display = "block";
-		}
-
-		function off() {
-		    document.getElementById("shebang").style.display = "none";
-		}
-		</script>
-		<link rel="manifest" href="manifest.json">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- <script src="js/material-template.js"></script>
+		<script src="js/mat_fetch.js"></script> -->
+    <script>
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+      })  
+    </script>
+    <link rel="manifest" href="manifest.json">
+    <script>
+      $(document).ready(function(){
+        $('.modal').modal();
+      })  
+    </script>
 </body>
+</html>
