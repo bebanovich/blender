@@ -1,0 +1,31 @@
+{{#each tutorials}}
+<div class="container">
+<div class="row">
+  <div class="col s8 l6">
+    <div class="card">
+    <div class="card-image">
+      <img alt="{{this.name}} image" src= "http://img.youtube.com/vi/{{this.vid_id}}/mqdefault.jpg">
+        <a href="#" class="halfway-fab btn-floating green"><i class="material-icons">playlist_add</i></a>
+      </div>
+    <div class="card-content">
+      <span class="card-title">{{this.name}}</span>
+      <p>{{this.description}}</p>
+    </div>
+    <div class="card-action">
+      <a href="#">View Details</a>
+      <a href="#{{this.id}}{{this.name}}" class="btn orange modal-trigger">Cheat List</a>
+    </div>
+  </div>
+</div>
+
+</div>
+
+    <div class="modal" id="{{this.id}}{{this.name}}">
+      {{shortcuts}}
+    </div>
+  </div>
+</div>
+
+
+        
+{{/each}}

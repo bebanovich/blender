@@ -15,19 +15,19 @@ html {
 /* Tyler - set main page title font, size & color here */
     /* See font choices @ https://bebanovich.github.io/blender/fonts.html */
 h1 {
-    font-size: 24px; font-size: 2.4em; /* =24px */
     font-family: 'Nosifer', cursive;
-    font-size: 3.5em;
-    color: #124816;
+    font-size: 4em;
+    color: black;
+    /* color: #124816; */
     text-align: center;
-    opacity: .5;
 }
 /* Tyler - set left side tutorial title font, size & color here */
     /* See font choices @ https://bebanovich.github.io/blender/fonts.html */
 h2 {
     font-size: 2em;
     font-family: 'Amatic SC', cursive;
-    color: #ADD8E6;
+    color: #77ff27;
     text-align: left;
-    z-index: -11;
+    background: transparent;
+    opacity: .6;
 }

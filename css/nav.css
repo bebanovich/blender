@@ -1,3 +1,45 @@
+#tutorialContent {
+  background: transparent;
+}
+
+.inhead {
+  z-index: 100;
+  width: 20em;
+  position: relative;
+  left: 1.5em;
+  top: -4em;
+  display: block;
+
+
+}
+
+#fg {
+  -webkit-clip-path: polygon(100% 0, 100% 6%, 57% 40%, 50% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 6%, 57% 40%, 50% 100%, 0 100%, 0 0);
+    background: linear-gradient(180deg, #124816 0%, #000000 80%);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: .6;
+  z-index: 15;
+}
+
+#bg {
+  background-color: #000000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -500;
+}
+
 #shebang {
     position: fixed;
     display: none;
@@ -37,10 +79,11 @@
 
 .headline {
   position: fixed;
-  top: 6em;
+  top: 3em;
   left: 10%;
   right: 10%;
-  z-index: 5000;
+  z-index: 15;
+  background: transparent;
 
 }
 
@@ -71,13 +114,14 @@
     z-index: 5000;
 }
 /* Position foil Epitome logo */
-.logo {
-  position: fixed;
-  left: 1.5em;
+.container .logo {
+  position: absolute;
+  left: 1.75em;
   top: 0;
   z-index: 102;
-  width: 5em;
-  height: 10.857em;
+  width: 50em;
+  height: 109em;
+  overflow: visible;
 }
 
 .topnav {
@@ -87,7 +131,7 @@
   overflow: hidden;
   /*background: linear-gradient(-90deg, #1e7724 0%, #000000 100%);*/
   /*background: rgba(255,255,255,0.1);*/
-  position: fixed;
+  position: absolute;
   top: 0em;
   z-index: 102;
 }
@@ -131,6 +175,7 @@
     height: 100%;
     margin-top: 18em;
     z-index: -1;
+    background: transparent;
 }
 
 .mainInner {

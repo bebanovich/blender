@@ -1,7 +1,7 @@
 
 .youtube {
-  width: 100%;
-height: 100%;
+  width: 26.66em;
+  height: 15em;
 background: transparent;
 position: relative;
 /* left: 1em; */
@@ -10,18 +10,23 @@ z-index: 11;
 padding: 0;
 margin: 0;
 display: inline-block;
+overflow: hidden;
 }
 .video-youtube-lazy{
   position: relative;
+  width: 26.66em;
+  height: 15em;
   padding-bottom: 70%;
   height: 0;
-  overflow: visible;
+  overflow: hidden;
   margin: 0;
+  background: transparent;
+  z-index: 20;
 }
 .video-youtube-lazy:before{
 content:"";
 position:absolute;
-top:47%;
+top:30%;
 left:42%;
 cursor:pointer;
 opacity:.6;
@@ -29,26 +34,33 @@ transition: all 0.2s ease-out;
 border-style: solid;
 border-width: 1.3em 0 1.3em 2.4em;
 border-color: transparent transparent transparent #fff;
+background: transparent;
+z-index: 20;
 
 }
 .video-youtube-lazy:hover:before{
 border-color: transparent transparent transparent #77ff27!important;
 color:red!important;
 opacity:1;
+background: transparent;
 }
 .youtube img{
-width:100%;
-height:auto;
-top: -16.82%;
+position: absolute;
+width: 100%;
+bottom: 1.25em;
+left: 0;
 z-index:1;
+background: transparent;
 }
 .youtube iframe{
 position:absolute;
 top:0;
 left:0;
 width:100%;
-height:100%;
-z-index:2;
+height:80%;
+z-index:21;
+overflow: visible;
+background: transparent;
 }
 /*better styles below*
 

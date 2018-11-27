@@ -1,11 +1,9 @@
 {{#each tutorials}}
-<div class="inhead">
-  <h2>{{this.name}}</h2>
-</div>
-  <div class="viddiv">
-    <div class="youtube" data-id="{{this.vid_id}}" onclick="videoPlay(this)">
+<h2>{{this.name}}</h2>
+  <div class="tube"><div class="youtube" data-id="{{this.vid_id}}" onclick="videoPlay(this)">
     <div class="video-youtube-lazy"><img alt="youtube image" src="https://i.ytimg.com/vi/{{this.vid_id}}/hqdefault.jpg">
       <!--<iframe src="http://www.youtube.com/embed/{{this.vid_id}}?autoplay=1&autohide=1" frameborder="0" allowfullscreen="1"></iframe>-->
+
     </div>
     </div>
   </div>
@@ -14,5 +12,15 @@
             <div class="lower">
                 <label onclick="on()"><img src="images/icons/point.png" width="12px" height="12px" vertical-align="center"></img>&nbsp;&nbsp;&nbsp;Tutorial Topics</label>
             </div>
+
+            {{!-- <div class="sublay sublay-hugeinc">
+
+              <label for="op"></label>
+                <nav>
+                  <ul>
+                        {{shortcuts}}
+                  </ul>
+                </nav>
+            </div> --}}
           </div>
 {{/each}}

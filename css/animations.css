@@ -46,8 +46,8 @@
     height: 33.875em;
     position: fixed;
     Right: 0;
-    bottom: 0%;
-    z-index: 101;
+    bottom: 0em;
+    z-index: 10;
 		background-color: transparent;
     background-image: url("../images/sub_med_eyes.png");
     background-repeat:no-repeat;
@@ -62,8 +62,8 @@
     width: 5.714em;
     height: 1.786em;
     position: fixed;
-    right: 34em;
-    bottom: 15em;
+    right: 27em;
+    bottom:16em;
     z-index: 2;
     background-image: url("../images/purple_eyes_sm.png");
 		max-width:100%;
@@ -83,7 +83,7 @@
     width: 4.286em;
     height: 1.071em;
     position: fixed;
-    right: 22em;
+    right: 16em;
     top: 24em;
     z-index: 2;
     background-image: url("../images/blue_eyes.png");
