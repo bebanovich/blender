@@ -44,51 +44,55 @@ nav .container{
  .sidenav {
     opacity: .8;
   }
+  .section{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+  }
 </style>
 
 </head>
 <body>
 <header>
 <!-- Top Navigation Menu  green darken-4-->
-  
+
 <nav class="nav-wrapper grey darken-4">
     <img class="halfway-fab" src="images/logo_med.png" width="50px" height="109px" left="1.5em" alt="TD Productions">
   <div class="container">
 
       <a href="#" class="brand-logo">Tytorials</a>
      <a href="#" class="sidenav-trigger" data-target="mobile-links">
-      <i class="material-icons show-on-med-and-down">menu</i>  
+      <i class="material-icons show-on-med-and-down">menu</i>
     </a>
     <ul class="right hide-on-med-and-down" display="inline-block">
-      <li><a href="#">Home</a></li>  
-      <li><a href="#">YouTube</a></li>  
-      <li><a href="#">About</a></li>  
-      <li><a href="#">Contact</a></li>  
+      <li><a href="#">Home</a></li>
+      <li><a href="#">YouTube</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
     </ul>
   </div>
 </nav>
 <ul class="sidenav light-green accent-1" id="mobile-links">
-  <li><a href="#">Home</a></li>  
-  <li><a href="https://www.youtube.com/channel/UCouKWsZeADxOrvPX_6xO3dg">YouTube</a></li>  
-  <li><a href="#">About</a></li>  
-  <li><a href="#">Contact</a></li>  
+  <li><a href="#">Home</a></li>
+  <li><a href="https://www.youtube.com/channel/UCouKWsZeADxOrvPX_6xO3dg">YouTube</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Contact</a></li>
 </ul>
 </header>
 
-    
+
 	<div id="center" class="main center">
     <h2 class="grey-text darken-3">Latest Blender Tutorials</h2>
 	  <div id="tutorialContent">
 
 
       <!-- first vid  -->
-      <div class="container">
+      <section class="container">
         <div class="row">
-      <div class="col s12 l6">
+      <div class="col s12 l5">
         <div class="card z-depth-3">
         <div class="video-container">
           <iframe src="//www.youtube.com/embed/bUXSpZf1TTY?rel=0" frameborder="0" allowfullscreen></iframe>
-          
+
           </div>
           <a href="#" class="btn-tiny orange-text lighten-2 right"><i class="material-icons">playlist_add</i></a>
 
@@ -108,9 +112,9 @@ nav .container{
         </div>
       </div>
     </div>
-    
 
-    
+
+
         <div class="modal" id="bUXSpZf1TTY">
             <p>cheatsheet shortcuts for removing strings arm</p>
         </div>
@@ -118,11 +122,11 @@ nav .container{
 
 <!-- second vid -->
 
-      <div class="col s12 l6">
+      <div class="col s12 l5 offset-l1">
         <div class="card z-depth-3">
             <div class="video-container">
                 <iframe src="//www.youtube.com/embed/Orv9rJvL8p8?rel=0" frameborder="0" allowfullscreen></iframe>
-                
+
                 </div>
                 <a href="#" class="btn-tiny orange-text lighten-2 right"><i class="material-icons">playlist_add</i></a>
 
@@ -142,8 +146,8 @@ nav .container{
         </div>
       </div>
     </div>
-    
-    
+
+
         <div class="modal" id="Orv9rJvL8p8">
             <p>cheatsheet shortcuts for mirroring the arm bones here</p>
         </div>
@@ -151,15 +155,15 @@ nav .container{
 
 
 <!-- third vid -->
-    
+
     <div class="row">
-      <div class="col s12 l6">
+      <div class="col s12 l5">
         <div class="card z-depth-3">
             <div class="video-container">
                 <iframe src="//www.youtube.com/embed/i9H_Nohe3Mw?rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
             <a href="#" class="btn-tiny orange-text lighten-2 right"><i class="material-icons">playlist_add</i></a>
- 
+
 
 
 
@@ -178,19 +182,19 @@ nav .container{
         </div>
       </div>
     </div>
-    
+
     </div>
-    
+
         <div class="modal" id="i9H_Nohe3Mw">
             <p>cheatsheet shortcuts for naming and orienting bones here</p>
         </div>
 
-      </div>
-        
+      </section>
+
     </div>
 
 
-  
+
 
 		<!-- <script src="js/handlebars.runtime.js"></script> -->
 		<!-- <script src="js/handlebars.js"></script> -->
@@ -201,13 +205,13 @@ nav .container{
     <script>
       $(document).ready(function(){
         $('.sidenav').sidenav();
-      })  
+      })
     </script>
     <link rel="manifest" href="manifest.json">
     <script>
       $(document).ready(function(){
         $('.modal').modal();
-      })  
+      })
     </script>
 </body>
 </html>
