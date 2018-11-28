@@ -13,15 +13,15 @@
 }
 @keyframes eye-in {
 	0% { opacity: 0;transform: scale(0);}
-	100% { opacity: .3;transform: scale(1);}
+	100% { opacity: .4;transform: scale(1);}
 }
 @-webkit-keyframes eye-in {
 	0% { opacity: 0;-webkit-transform: scale(0);}
-	100% { opacity: .3;-webkit-transform: scale(1);}
+	100% { opacity: .4;-webkit-transform: scale(1);}
 }
 @-moz-keyframes eye-in {
 	0% { opacity: 0;-moz-transform: scale(0);}
-	100% { opacity: .3;-moz-transform: scale(1);}
+	100% { opacity: .4;-moz-transform: scale(1);}
 }
 @keyframes blue-eye-in {
 	0% { opacity: 0;transform: scale(0); transform: rotate(0);}
@@ -42,15 +42,13 @@
     -moz-animation:pop-in 4s;
     -ms-animation:pop-in 4s;
     animation-timing-function: ease-in;
-    width: 31.250em;
-    height: 33.875em;
-    position: fixed;
-    Right: 0;
-    bottom: 0em;
+    /* width: 31.250em;
+    height: 33.875em; */
+    position: absolute;
+    Right: 10vw;
+    bottom: 5vw;
     z-index: 10;
 		background-color: transparent;
-    background-image: url("../images/sub_med_eyes.png");
-    background-repeat:no-repeat;
 }
 
 /* Animates Epitome Bella's eyes from background */
@@ -61,30 +59,27 @@
     animation-timing-function: ease-in;
     width: 5.714em;
     height: 1.786em;
-    position: fixed;
-    right: 27em;
-    bottom:16em;
+    position: absolute;
+    right: 75vw;
+    top:30vw;
     z-index: 2;
     background-image: url("../images/purple_eyes_sm.png");
 		max-width:100%;
 		max-height:100%;
     background-repeat:no-repeat;
-    opacity: .3;
+    opacity: .4;
 }
 
 .blueeyes {
     -webkit-animation:blue-eye-in 7s;
     -moz-animation:blue-eye-in 7s;
     -ms-animation:blue-eye-in 7s;
-		-ms-transform: rotate(6deg); /* IE 9 */
-    -webkit-transform: rotate(6deg); /* Safari */
-    transform: rotate(6deg); /* Standard syntax */
     animation-timing-function: ease-in;
     width: 4.286em;
     height: 1.071em;
-    position: fixed;
-    right: 16em;
-    top: 24em;
+    position: absolute;
+    right: 55vw;
+    top: 42vw;
     z-index: 2;
     background-image: url("../images/blue_eyes.png");
 		max-width:100%;
