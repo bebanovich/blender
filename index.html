@@ -31,7 +31,7 @@ header {
     min-height: 500px;
   }
 }
-nav {;
+nav {
   opacity: .8;
 }
 nav .container{
@@ -48,6 +48,9 @@ nav .container{
     padding-top: 2vw;
     padding-bottom: 2vw;
   }
+	.parallax-container{
+	max-height: 300px;
+}
 </style>
 
 </head>
@@ -79,6 +82,13 @@ nav .container{
 </ul>
 </header>
 
+<!-- parallax here -->
+<div class="parallax-container">
+	<div class="parallax">
+		<img src="images/storm.png" class="responsive-img" />
+	</div>
+</div>
+<!-- end parallax -->
 
 	<div id="center" class="main center">
     <h2 class="grey-text darken-3">Latest Blender Tutorials</h2>
@@ -202,16 +212,15 @@ nav .container{
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- <script src="js/material-template.js"></script>
 		<script src="js/mat_fetch.js"></script> -->
-    <script>
-      $(document).ready(function(){
-        $('.sidenav').sidenav();
-      })
-    </script>
+
+		<script>
+	$(document).ready(function() {
+		$(".sidenav").sidenav();
+    $('.modal').modal();
+		$(".parallax").parallax();
+	});
+	</script>
+
     <link rel="manifest" href="manifest.json">
-    <script>
-      $(document).ready(function(){
-        $('.modal').modal();
-      })
-    </script>
 </body>
-</html>
+<	/html>
