@@ -45,10 +45,11 @@
     width: 740px;
     height: 741px;
     position: absolute;
-    right: -7em;
+    right: 0em;
     bottom: 0;
     z-index: 1;
-		background-color: transparent;
+    background-color: transparent;
+    overflow: hidden;
 }
 
 /* Animates Epitome Bella's eyes from background */
