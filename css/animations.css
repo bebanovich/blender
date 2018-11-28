@@ -42,12 +42,12 @@
     -moz-animation:pop-in 4s;
     -ms-animation:pop-in 4s;
     animation-timing-function: ease-in;
-    /* width: 31.250em;
-    height: 33.875em; */
+    width: 740px;
+    height: 741px;
     position: absolute;
-    Right: 10vw;
-    bottom: 5vw;
-    z-index: 10;
+    right: -7em;
+    bottom: 0;
+    z-index: 1;
 		background-color: transparent;
 }
 
@@ -62,7 +62,6 @@
     position: absolute;
     right: 75vw;
     top:30vw;
-    z-index: 2;
     background-image: url("../images/purple_eyes_sm.png");
 		max-width:100%;
 		max-height:100%;
@@ -80,7 +79,6 @@
     position: absolute;
     right: 55vw;
     top: 42vw;
-    z-index: 2;
     background-image: url("../images/blue_eyes.png");
 		max-width:100%;
 		max-height:100%;
