@@ -42,8 +42,8 @@
     -moz-animation:pop-in 4s;
     -ms-animation:pop-in 4s;
     animation-timing-function: ease-in;
-    width: 750px;
-    height: 794px;
+    /* width: 750px; */
+    max-height: 750px;
     position: absolute;
     right: 0;
     bottom: 0;
