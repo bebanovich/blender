@@ -27,12 +27,20 @@ header {
   background-position: center;
   min-height: 1000px;
 }
+header .row {
+  display: inline-block;
+  /* position: absolute;
+  right: 0;
+  bottom: 0; */
+  max-height: 650px;
+}
 @media screen and (max-width: 670px){
   header{
     min-height: 650px;
   }
 }
 nav {
+  z-index: 2;
   opacity: 1;
 }
 nav .container{
@@ -41,6 +49,7 @@ nav .container{
     display: inline-block;
     position: absolute;
     top: 0;
+    z-index: 2;
   }
  .sidenav {
     opacity: .7;
@@ -61,15 +70,22 @@ nav .container{
 <body>
 <header>
   <!-- background animations-->
-  <div class="pop"><img src="images/the_eyes.png" class="responsive-img"/></div>
-  <div class="eyes"></div>
-  <div class="blueeyes"></div>
+<!-- 
+  <div class="row"> -->
+      <!-- <div class="eyes col s2 l3 bottom"><img src="images/purple_eyes_sm.png" class="responsive-img" /></div>
+      <div class="blueeyes col s2 l3"><img src="images/blue_eyes.png" class="responsive-img"></div>
+      <div class="pop col s8 l6 right"><img src="images/the_eyes.png" class="responsive-img"/></div> -->
+      <div class="pop"><img src="images/the_eyes.png" class="responsive-img"/></div>
+      <div class="eyes"></div>
+      <div class="blueeyes"></div>
+
+   <!-- </div> -->
   <!-- background animations-->
 
 <!-- Top Navigation Menu  grey darken-4-->
 
 <nav class="nav-wrapper transparent">
-   <a href="#"><img class="halfway-fab" src="images/logo_med.png" width="50px" height="109px" left="1.5em" alt="Tytorials Logo"></a>
+   <a href="#"><img src="images/logo_med.png" width="50px" height="109px" left="1.5em" alt="Tytorials Logo"></a>
   <div class="container">
 
       <a href="#" class="brand-logo">Tytorials</a>
@@ -100,7 +116,7 @@ nav .container{
 </div>
 <!-- end parallax -->
 
-	<div id="center" class="main center">
+	<!-- <div id="center" class="main center"> -->
     <h2 class="grey-text darken-3">Latest Blender Tutorials</h2>
 	  <div id="tutorialContent">
 
@@ -212,7 +228,7 @@ nav .container{
       </section>
 
     </div>
-    </div>
+
 
 
 

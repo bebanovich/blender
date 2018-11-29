@@ -36,20 +36,19 @@
 	100% { opacity: .6;-moz-transform: scale(1); -moz-transform: rotate(6deg);}
 }
 
-/* Animates the main background fade-in */
+/* Animates the background fade-in */
 .pop {
     -webkit-animation:pop-in 4s;
     -moz-animation:pop-in 4s;
     -ms-animation:pop-in 4s;
     animation-timing-function: ease-in;
-    width: 740px;
-    height: 741px;
+    width: 750px;
+    height: 794px;
     position: absolute;
-    right: 0em;
+    right: 0;
     bottom: 0;
-    z-index: 1;
     background-color: transparent;
-    overflow: hidden;
+    z-index: 1;
 }
 
 /* Animates Epitome Bella's eyes from background */
@@ -65,7 +64,7 @@
     top:30vw;
     background-image: url("../images/purple_eyes_sm.png");
 		max-width:100%;
-		max-height:100%;
+    max-height:100%;
     background-repeat:no-repeat;
     opacity: .4;
 }
