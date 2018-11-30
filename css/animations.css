@@ -25,15 +25,15 @@
 }
 @keyframes blue-eye-in {
 	0% { opacity: 0;transform: scale(0); transform: rotate(0);}
-	100% { opacity: .6;transform: scale(1); transform: rotate(6deg);}
+	100% { opacity: .6;transform: scale(1);}
 }
 @-webkit-keyframes blue-eye-in {
 	0% { opacity: 0;-webkit-transform: scale(0); webkit-transform: rotate(0);}
-	100% { opacity: .6;-webkit-transform: scale(1); webkit-transform: rotate(6deg);}
+	100% { opacity: .6;-webkit-transform: scale(1);}
 }
 @-moz-keyframes blue-eye-in {
 	0% { opacity: 0;-moz-transform: scale(0); -moz-transform: rotate(0);}
-	100% { opacity: .6;-moz-transform: scale(1); -moz-transform: rotate(6deg);}
+	100% { opacity: .6;-moz-transform: scale(1);}
 }
 
 /* Animates the background fade-in */
@@ -43,11 +43,11 @@
     -ms-animation:pop-in 4s;
     animation-timing-function: ease-in;
     /* width: 750px; */
-    max-height: 700px;
+    max-height: 675px;
     position: absolute;
     object-fit: contain;
     right: 0;
-    bottom: 5%;
+    bottom: 3%;
     background-color: transparent;
     z-index: 1;
 }
