@@ -47,7 +47,7 @@
     position: absolute;
     object-fit: contain;
     right: 0;
-    bottom: 0;
+    bottom: 5%;
     background-color: transparent;
     z-index: 1;
 }
