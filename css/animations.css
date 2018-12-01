@@ -1,3 +1,59 @@
+.swing {
+    animation: swing ease-in-out 2.5s infinite alternate;
+    transform-origin: center -450px;
+    /* float:left; */
+    padding: 0;
+    border: 0;
+    background: black;
+    z-index: -1;
+    /* box-shadow: 5px 5px 10px rgba(0,0,0,0.5); */
+}
+.swing img {
+    /* border: 5px solid #f8f8f8; */
+    display: inline-block;
+    float: left;
+    position: absolute;
+    top: -125px;
+    left: 0;
+    padding: 0;
+    border: 0;
+    background: black;
+    opacity: .6;
+}
+.swing:after{
+    /* content: ''; */
+    /* position: absolute;   */
+    /* width: 20px; height: 20px;   */
+    /* border: 1px solid #999; */
+    /* top: -75px; left: 50%; */
+    z-index: -1;
+    padding: 0;
+    border: 0;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(0deg);
+    background: black;
+}
+/* nail */
+.swing:before{
+    content: '';
+    /* position: absolute; */
+    /* width: 5px; height: 5px; */
+    top: 0px;left: 0%;
+    z-index: 1;
+    padding: 0;
+    border: 0;
+    /* border-radius: 50% 50%;*/
+    background: #000;
+}
+ 
+@keyframes swing {
+    0% { transform: rotate(1.5deg); }
+    100% { transform: rotate(-1deg); }
+}
+
+
+
 /* Set keyframes for background fade-in */
 @keyframes pop-in {
 	0% { opacity: 0; transform: scale(0.5); }
