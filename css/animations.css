@@ -1,55 +1,85 @@
 .swing {
     animation: swing ease-in-out 2.5s infinite alternate;
     transform-origin: center -450px;
-    /* float:left; */
-    padding: 0;
-    border: 0;
-    background: black;
-    z-index: -1;
-    /* box-shadow: 5px 5px 10px rgba(0,0,0,0.5); */
+    z-index: 1;
 }
 .swing img {
-    /* border: 5px solid #f8f8f8; */
     display: inline-block;
     float: left;
     position: absolute;
     top: -125px;
     left: 0;
-    padding: 0;
-    border: 0;
-    background: black;
-    opacity: .8;
+    opacity: 1;
+    z-index: 1;
 }
 .swing:after{
-    /* content: ''; */
-    /* position: absolute;   */
-    /* width: 20px; height: 20px;   */
-    /* border: 1px solid #999; */
-    /* top: -75px; left: 50%; */
-    z-index: -1;
-    padding: 0;
-    border: 0;
-    border-bottom: none;
-    border-right: none;
-    transform: rotate(0deg);
-    background: black;
-}
-/* nail */
-.swing:before{
-    content: '';
-    /* position: absolute; */
-    /* width: 5px; height: 5px; */
-    top: 0px;left: 0%;
     z-index: 1;
-    padding: 0;
-    border: 0;
-    /* border-radius: 50% 50%;*/
-    background: #000;
 }
 
+.swing:before{
+    z-index: 1;
+}
+
+.bluey {
+    animation: swing ease-in-out 4s infinite alternate;
+    transform-origin: -20% 60%;
+    z-index: -2;
+    max-width: 60px;
+    max-height: 15px;
+}
+.bluey img {
+    display: inline-block;
+    float: right;
+    position: absolute;
+    bottom: -20em;
+    left: 65em;
+    opacity: .6;
+    z-index: -2;
+    max-width: 60px;
+    max-height: 15px;
+    /* margin-top: 150px; */
+}
+.bluey:after{
+    z-index: -2;
+}
+
+.bluey:before{
+    z-index: -2;
+}
+.greenswing {
+    animation: swing ease-in-out 1.8s infinite alternate;
+    transform-origin: top left -10px;
+    z-index: -1;
+    opacity: .4;
+    position: absolute;
+}
+.greenswing img {
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: -12em; */
+    left: 50em;
+    opacity: .4;
+}
+.greenswing:after{
+    z-index: 0;
+}
+
+.greenswing:before{
+    z-index: 0;
+}
 @keyframes swing {
     0% { transform: rotate(1deg); }
     100% { transform: rotate(-2deg); }
+}
+
+@keyframes bluey {
+    0% { transform: rotate(-2deg); }
+    100% { transform: rotate(.06deg); }
+}
+@keyframes greenswing {
+    0% { transform: rotate(-.06deg); }
+    100% { transform: rotate(.08deg); }
 }
 
 
