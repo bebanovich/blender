@@ -1,6 +1,6 @@
 .swing {
     animation: swing ease-in-out 2.6s infinite alternate;
-    transform-origin: center -450px;
+    transform-origin: center -550px 0;
     z-index: 1;
 }
 .swing img {
@@ -22,31 +22,29 @@
 
 .bluey {
     animation: swing ease-in-out 2.1s infinite alternate;
-    transform-origin: top -50px;
-    z-index: -2;
-    opacity: 6;
+    transform-origin: 0 0;
+    z-index: -1;
 }
 .bluey img {
     display: inline-block;
-    float: right;
+    float: left;
     position: absolute;
-    bottom: -20em;
-    left: 55em;
-    opacity: .6;
-    z-index: -2;
+    bottom: -28em;
+    left: 7em;
+    z-index: -1;
     /* margin-top: 150px; */
 }
 .bluey:after{
-    z-index: -2;
+    z-index: -1;
 }
 
 .bluey:before{
-    z-index: -2;
+    z-index: -1;
 }
 .greenswing {
     animation: swing ease-in-out 1.8s infinite alternate;
     transform-origin: top left -10px;
-    z-index: -1;
+    z-index: -2;
     opacity: .5;
     position: absolute;
 }
@@ -57,9 +55,10 @@
     bottom: -12em; */
     left: 50em;
     opacity: .5;
+    z-index: -2;
 }
 .greenswing:after{
-    z-index: 0;
+    z-index: -2;
 }
 
 .greenswing:before{
@@ -71,8 +70,8 @@
 }
 
 @keyframes bluey {
-    0% { transform: rotate(2deg); }
-    100% { transform: rotate(1deg); }
+    0% { transform: rotate(1deg); }
+    100% { transform: rotate(-.5deg); }
 }
 @keyframes greenswing {
     0% { transform: rotate(-.08deg); }
