@@ -18,7 +18,7 @@
     padding: 0;
     border: 0;
     background: black;
-    opacity: .6;
+    opacity: .8;
 }
 .swing:after{
     /* content: ''; */
@@ -46,7 +46,7 @@
     /* border-radius: 50% 50%;*/
     background: #000;
 }
- 
+
 @keyframes swing {
     0% { transform: rotate(1deg); }
     100% { transform: rotate(-2deg); }
