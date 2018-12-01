@@ -1,5 +1,5 @@
 .swing {
-    animation: swing ease-in-out 2.5s infinite alternate;
+    animation: swing ease-in-out 2.6s infinite alternate;
     transform-origin: center -450px;
     z-index: 1;
 }
@@ -21,7 +21,7 @@
 }
 
 .bluey {
-    animation: swing ease-in-out 4s infinite alternate;
+    animation: swing ease-in-out 2.1s infinite alternate;
     transform-origin: top -50px;
     z-index: -2;
     opacity: 6;
