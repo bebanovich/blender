@@ -22,11 +22,9 @@
 
 .bluey {
     animation: swing ease-in-out 4s infinite alternate;
-    transform-origin: -20% 60%;
+    transform-origin: top -50px;
     z-index: -2;
-    max-width: 60px;
-    max-height: 15px;
-    opacity: .4;
+    opacity: 6;
 }
 .bluey img {
     display: inline-block;
@@ -36,8 +34,6 @@
     left: 55em;
     opacity: .6;
     z-index: -2;
-    max-width: 60px;
-    max-height: 15px;
     /* margin-top: 150px; */
 }
 .bluey:after{
@@ -75,12 +71,12 @@
 }
 
 @keyframes bluey {
-    0% { transform: rotate(-2deg); }
-    100% { transform: rotate(.06deg); }
+    0% { transform: rotate(2deg); }
+    100% { transform: rotate(1deg); }
 }
 @keyframes greenswing {
-    0% { transform: rotate(-.06deg); }
-    100% { transform: rotate(.08deg); }
+    0% { transform: rotate(-.08deg); }
+    100% { transform: rotate(.1deg); }
 }
 
 
