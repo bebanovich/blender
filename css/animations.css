@@ -2,7 +2,6 @@
     animation: swing ease-in-out 2.6s infinite alternate;
     transform-origin: center -550px 0;
     z-index: 1;
-    max-width: 80%;
 }
 .swing img {
     display: inline-block;
