@@ -18,14 +18,26 @@
 
 <!-- for precomiled -->
 <style>
+body::-webkit-scrollbar {
+    width: .7em;
+		background-color: black;
+}
 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
 
+body::-webkit-scrollbar-thumb {
+  background-color: #62456a;
+  outline: 1px solid black;
+}
 header {
   /* <!-- background: url(images/big_eyes.png); --> */
   background-color: black;
   background-size: cover;
   background-position: center;
   min-height: 1000px;
+  width: 100%
 }
 header .row {
   display: inline-block;
@@ -42,6 +54,8 @@ header .row {
 nav {
   z-index: 2;
   opacity: 1;
+  position: fixed;
+  top: 0;
 }
 nav .container{
     /* padding-left: 1em;
@@ -49,7 +63,7 @@ nav .container{
     display: inline-block;
     position: absolute;
     top: 0;
-    z-index: 2;
+    z-index: 3;
   }
  .sidenav {
     opacity: .7;
@@ -74,22 +88,15 @@ nav .container{
 </head>
 <body>
 <header>
-  <!-- background animations-->
-<!--
-  <div class="row"> -->
-      <!-- <div class="eyes col s2 l3 bottom"><img src="images/purple_eyes_sm.png" class="responsive-img" /></div>
-      <div class="blueeyes col s2 l3"><img src="images/blue_eyes.png" class="responsive-img"></div>
-      <div class="pop col s8 l6 right"><img src="images/the_eyes.png" class="responsive-img"/></div> -->
-      <div class="pop"><img src="images/the_eyes.png" class="responsive-img"/></div>
-      <div class="eyes"></div>
-      <div class="blueeyes"></div>
+  <!-- background animations col s2 l3-->
+	<figure class="bluey"><img src="images/blue_eyes_asleep.png" class="responsive-img"></figure>
+	<figure class="swing"><img src="images/bella2.png" class="responsive-img"/></figure>
 
-   <!-- </div> -->
-  <!-- background animations-->
+  <!-- end background animations-->
 
 <!-- Top Navigation Menu  grey darken-4-->
 
-<nav class="nav-wrapper transparent">
+<nav class="nav-wrapper black">
    <a href="#"><img src="images/logo_med.png" width="50px" height="109px" left="1.5em" alt="Tytorials Logo"></a>
   <div class="container">
 
@@ -111,6 +118,8 @@ nav .container{
   <li><a href="#">About</a></li>
   <li><a href="#">Contact</a></li>
 </ul>
+
+<figure class="greenswing"><img src="images/green_bat_asleep.png" class="responsive-img" /></figure>
 </header>
 
 <!-- parallax here -->

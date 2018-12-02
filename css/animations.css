@@ -45,7 +45,7 @@
     animation: swing ease-in-out 1.8s infinite alternate;
     transform-origin: top left -10px;
     z-index: -2;
-    opacity: .5;
+    opacity: .7;
     position: absolute;
 }
 .greenswing img {
@@ -54,7 +54,7 @@
     position: relative;
     bottom: -12em; */
     left: 50em;
-    opacity: .5;
+    opacity: .7;
     z-index: -2;
 }
 .greenswing:after{
