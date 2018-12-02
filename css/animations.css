@@ -44,21 +44,20 @@
 .greenswing {
     animation: swing ease-in-out 1.8s infinite alternate;
     transform-origin: top left -10px;
-    z-index: -2;
-    opacity: .7;
-    position: absolute;
+    z-index: 0;
+    opacity: 1;
+    position: relative;
 }
 .greenswing img {
     display: inline-block;
-    float: right;
     position: relative;
-    bottom: -12em; */
-    left: 50em;
+    bottom: -14em;
+    left: 2em;
     opacity: .7;
-    z-index: -2;
+    z-index: 0;
 }
 .greenswing:after{
-    z-index: -2;
+    z-index: 0;
 }
 
 .greenswing:before{
