@@ -1,7 +1,7 @@
 .swing {
     animation: swing ease-in-out 2.6s infinite alternate;
     transform-origin: center -550px 0;
-    z-index: 1;
+    z-index: 4;
 }
 .swing img {
     display: inline-block;
@@ -10,14 +10,14 @@
     top: -60px;
     left: 0;
     opacity: 1;
-    z-index: 1;
+    z-index: 4;
 }
 .swing:after{
-    z-index: 1;
+    z-index: 2;
 }
 
 .swing:before{
-    z-index: 1;
+    z-index: 2;
 }
 
 .bluey {
